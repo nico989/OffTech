@@ -1,0 +1,120 @@
+--- FCCU.php	2021-10-06 11:37:34.611588000 +0200
++++ fix.php	2021-10-08 17:30:24.964822600 +0200
+@@ -28,59 +28,67 @@
+ if (!$PARAM['id'] || !$PARAM['password']) {
+         login();
+ } else { // otherwise, attempt to authenticate
+-        $id = $PARAM['id'];
+-        $password = $PARAM['password'];
+-
+-        $mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+-        $query = "SELECT * FROM accounts WHERE id = $id AND password = '$password'";
+-        debug($query);
+-        $result = $mysqli->query($query) or die($mysqli->error());
+-        $row =  $result->fetch_array(); // there should be only one row
+-
+-        if (!$row) { // auth failure
+-                echo "<p><b>Your ID number and password you entered do not match.</b></p>";
+-                echo "<p>Please try again.</p>";
+-                login();
+-        } else { // this user is authenticated!
+-
+-                // store authentication information in this form
+-                echo "<input type=\"hidden\" name=\"id\" value=\"$id\" />\n";
+-                echo "<input type=\"hidden\" name=\"password\" value=\"$password\" />\n";
+-
+-                banner($row[2], $row[3]);
+-
+-                // perform any requested actions (wire, transfer, withdraw)
+-                if ($PARAM['action'] == 'Transfer Money') {
+-                        transfer_funds($id,
+-                                       $password,
+-                                       $PARAM['transfer_to'],
+-                                       $PARAM['transfer_amount']);
+-                } elseif ($PARAM['action'] == 'Wire Money') {
+-                        wire_funds($id,
+-                                    $password,
+-                                    $PARAM['routing'],
+-                                    $PARAM['wire_acct'],
+-                                    $PARAM['wire_amount']);
+-                } elseif ($PARAM['action'] == 'Withdraw Money') {
+-                        withdraw_cash($id,
+-                                      $password,
+-                                      $PARAM['withdraw_amount']);
+-                }
+-
+-                // normal output
+-
+-                // account info
+-                $query = "SELECT * FROM accounts WHERE id = $id AND password = '$password'";
+-                $result = $mysqli->query($query) or die($mysqli->error());
+-                 $row = $result->fetch_array(); // there should be only one row
+-                account_info($row);
+-
+-                // get current account list by name
+-                $query = "SELECT first, last FROM accounts ORDER BY last";
+-                $names = $mysqli->query($query) or die($mysqli->error());
+-                account_actions($row, $names);
+-        }
+-
++		if (is_numeric($PARAM['id']) && ctype_alnum($PARAM['password'])) {	
++			$mysqli = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
++			$id = mysqli_real_escape_string($mysqli, $PARAM['id']);
++			$password = mysqli_real_escape_string($mysqli, $PARAM['password']);
++			
++			$query = "SELECT * FROM accounts WHERE id = $id AND password = '$password'";
++			debug($query);
++			$result = $mysqli->query($query) or die($mysqli->error());
++			$row =  $result->fetch_array(); // there should be only one row
++
++			if (!$row) { // auth failure
++					echo "<p><b>Your ID number and password you entered do not match.</b></p>";
++					echo "<p>Please try again.</p>";
++					login();
++			} else { // this user is authenticated!
++
++					// store authentication information in this form
++					echo "<input type=\"hidden\" name=\"id\" value=\"$id\" />\n";
++					echo "<input type=\"hidden\" name=\"password\" value=\"$password\" />\n";
++
++					banner($row[2], $row[3]);
++
++					// perform any requested actions (wire, transfer, withdraw)
++					if ($PARAM['action'] == 'Transfer Money') {
++							transfer_funds($id,
++										   $password,
++										   $PARAM['transfer_to'],
++										   $PARAM['transfer_amount']
++										   );
++					} elseif ($PARAM['action'] == 'Wire Money') {
++							wire_funds($id,
++										$password,
++										$PARAM['routing'],
++										$PARAM['wire_acct'],
++										$PARAM['wire_amount']
++										);
++					} elseif ($PARAM['action'] == 'Withdraw Money') {
++							withdraw_cash($id,
++										  $password,
++										  $PARAM['withdraw_amount']
++										  );
++					}
++
++					// normal output
++
++					// account info
++					$query = "SELECT * FROM accounts WHERE id = $id AND password = '$password'";
++					$result = $mysqli->query($query) or die($mysqli->error());
++					$row = $result->fetch_array(); // there should be only one row
++					account_info($row);
++
++					// get current account list by name
++					$query = "SELECT first, last FROM accounts ORDER BY last";
++					$names = $mysqli->query($query) or die($mysqli->error());
++					account_actions($row, $names);
++			}
++		} else {
++			echo "<p><b>Your ID number or password you entered are not alphanumeric.</b></p>";
++			echo "<p><b>Please try again.<b></p>";
++			login();
++		}

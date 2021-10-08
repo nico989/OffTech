@@ -1,0 +1,53 @@
+# Network address
+NWrouter-NWorkstation --> network address:10.10.1.0 mask:255.255.255.0 
+ISrouter-NWrouter --> network address: 93.94.95.0 mask:255.255.255.0
+SWrouter-ISrouter --> network address: 83.84.85.0 mask:255.255.255.0
+SWworkstation-SWrouter --> network address:172.16.1.0 mask:255.255.255.0
+
+# Ip address
+NWorkstationEth1:10.10.1.2
+NWrouterUp: 10.10.1.1
+NWrouterDown: 93.94.95.3
+ISrouterUp: 93.94.95.2
+ISrouterDown: 83.84.85.2
+SWrouterUp: 83.84.85.3
+SWrouterDown: 172.16.1.1
+SWworkstationEht1: 172.16.1.2
+
+# Command for each machine
+SWworkstation1:
+ifconfig eth5 172.16.1.2 netmask 255.255.255.0
+route add -net 83.84.85.0 netmask 255.255.255.0 gw 172.16.1.1
+route add -net 93.94.95.0 netmask 255.255.255.0 gw 172.16.1.1
+route add -net 10.10.1.0 netmask 255.255.255.0 gw 172.16.1.1
+SWrouter:
+ifconfig eth2 172.16.1.1 netmask 255.255.255.0
+ifconfig eth1 83.84.85.2 netmask 255.255.255.0
+route add -net 93.94.95.0 netmask 255.255.255.0 gw 83.84.85.3
+route add -net 10.10.1.0 netmask 255.255.255.0 gw 83.84.85.3
+iptables -t nat -A POSTROUTING -o eth1 -s 172.16.1.0/24 -j SNAT --to 83.84.85.2
+iptables -t nat -A PREROUTING -i eth1 -d 83.84.85.2/24 -p tcp --dport 80 -j DNAT --to 172.16.1.2
+ISrouter:
+ifconfig eth5 83.84.85.3 netmask 255.255.255.0
+ifconfig eth3 93.94.95.2 netmask 255.255.255.0
+route add -net 10.10.1.0 netmask 255.255.255.0 gw 93.94.95.3
+route add -net 172.16.1.0 netmask 255.255.255.0 gw 83.84.85.2
+iptables -I FORWARD -d 192.168.0.0/16 -j DROP
+iptables -I FORWARD -d 172.16.0.0/12 -j DROP
+iptables -I FORWARD -d 10.0.0.0/8 -j DROP
+iptables -I FORWARD -s 192.168.0.0/16 -j DROP
+iptables -I FORWARD -s 172.16.0.0/12 -j DROP
+iptables -I FORWARD -s 10.0.0.0/8 -j DROP
+NWrouter:
+ifconfig eth3 10.10.1.1 netmask 255.255.255.0
+ifconfig eth5 93.94.95.3 netmask 255.255.255.0
+route add -net 83.84.85.0 netmask 255.255.255.0 gw 93.94.95.2
+route add -net  172.16.1.0 netmask 255.255.255.0 gw 93.94.95.2
+iptables -t nat -A POSTROUTING -o eth5 -s 10.10.1.0/24 -j SNAT --to 93.94.95.3
+NWworkstation1:
+ifconfig eth5 10.10.1.2 netmask 255.255.255.0
+route add -net 93.94.95.0 netmask 255.255.255.0 gw 10.10.1.1
+route add -net 83.84.85.0 netmask 255.255.255.0 gw 10.10.1.1
+route add -net 172.16.1.0 netmask 255.255.255.0 gw 10.10.1.1
+General:
+/share/shared/Internetworking/showcabling intranetworking-vn offtech
