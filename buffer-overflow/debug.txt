@@ -1,0 +1,15 @@
+in send_response:
+at line 219 --> char *path takes req->uri ('A' <repeats 2000 times>...)
+at line 227 --> false, set statcode 400
+at line 256 --> arrive!
+at line 257 --> false
+at line 309 --> true
+at line 315 --> BUFFER OVERFLOW with strcat --> copy path into sendmessage --> sendmessage only 1024, path 2000
+
+at line 227-228 --> if is false with request= GET http://
+at line 228 --> path+7 is null and not /, so path=NULL
+at line 251 --> strstr evaluates path=NULL and path is a non-terminated string, it has not '\0', segmentation fault!
+
+in get_header --> if get use If-Modified-Since header, in post use Content-Length header
+at line 88 --> hdrval[1024]
+at line 89 --> memcpy in hdrval, hdrptr size is controllable by user
