@@ -75,8 +75,7 @@ char *get_header(const httpreq_t *req, const char* headername) {
         char *hdrptr;
         char *hdrend;
         char *retval = NULL;
-        
-        // TODO: here?
+
         char searchstr[strlen(headername) + 5];
         strcpy(searchstr, "\r\n");
         strcat(searchstr, headername);
@@ -144,7 +143,6 @@ int parsereq(httpreq_t *req, char *datastr) {
                 return 1;
         }
         matchlen = (int)(position - last_position);
-        //TODO: here?
         req->method = (char *)malloc((matchlen + 1) * sizeof(char));
         memcpy(req->method, last_position, matchlen);
         req->method[matchlen] = '\0';
@@ -183,7 +181,7 @@ int parsereq(httpreq_t *req, char *datastr) {
         memcpy(req->version, last_position, matchlen);
         req->version[matchlen] = '\0';
         last_position = position;
-        // TODO: HERE?
+
         req->headers = (char *)malloc(strlen(last_position) * sizeof(char));
         strcpy(req->headers, last_position);
 

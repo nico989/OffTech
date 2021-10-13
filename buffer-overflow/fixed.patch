@@ -1,0 +1,83 @@
+--- webserver.c	2021-10-12 19:30:52.071662700 +0200
++++ fix.c	2021-10-13 11:18:18.454062400 +0200
+@@ -75,7 +75,8 @@
+         char *hdrptr;
+         char *hdrend;
+         char *retval = NULL;
+-
++        int BUFSIZE = 1024;
++        
+         char searchstr[strlen(headername) + 5];
+         strcpy(searchstr, "\r\n");
+         strcat(searchstr, headername);
+@@ -84,7 +85,12 @@
+         if (hdrptr = strstr(req->headers, searchstr)) {
+                 hdrptr += strlen(searchstr);
+                 if (hdrend = strstr(hdrptr, "\r\n")) {
+-                        char hdrval[1024]; // temporary return value
++
++                        if (hdrend - hdrptr + 1 > 1024) {
++                            BUFSIZE = hdrend - hdrptr;
++                        }
++
++                        char hdrval[BUFSIZE]; // temporary return value
+                         memcpy((char *)hdrval, hdrptr, (hdrend - hdrptr));
+                         hdrval[hdrend - hdrptr] = '\0'; // tack null onto end of header value
+                         int hdrvallen = strlen(hdrval);
+@@ -181,7 +187,6 @@
+         memcpy(req->version, last_position, matchlen);
+         req->version[matchlen] = '\0';
+         last_position = position;
+-
+         req->headers = (char *)malloc(strlen(last_position) * sizeof(char));
+         strcpy(req->headers, last_position);
+ 
+@@ -213,11 +218,13 @@
+ int send_response(int sockfd, httpreq_t *req, int statcode) {
+         int urifd;
+         const int BUFSIZE = 1024;
+-        char sendmessage[BUFSIZE];
++        char *sendmessage;
++        sendmessage = (char *)malloc((BUFSIZE) * sizeof(char));
+         char *path = req->uri;
+ 
+         if (req->uri == NULL || req->method == NULL ||
+                 req->headers == NULL || req->version == NULL) {
++                free(sendmessage);
+                 return 0;
+         }
+ 
+@@ -310,6 +317,12 @@
+                 strcat(sendmessage, "</title></head><body><h2>HTTP/1.0</h2><h1>");
+                 strcat(sendmessage, status(statcode));
+                 strcat(sendmessage, "</h1><h2>URI: ");
++
++                int total_length = strlen(sendmessage) + strlen(path) + strlen("</h2></body></html>"); 
++                if(total_length > BUFSIZE) {
++                    sendmessage = realloc(sendmessage, total_length);
++                }
++
+                 strcat(sendmessage, path);
+                 strcat(sendmessage, "</h2></body></html>");
+         }
+@@ -317,6 +330,7 @@
+         if (sendmessage[0] != '\0') {
+                 // send headers as long as there are headers to send
+                 if (send(sockfd, sendmessage, strlen(sendmessage), 0) < 0) {
++                        free(sendmessage);
+                         perror("send");
+                         pthread_exit(NULL);
+                 }
+@@ -329,10 +343,12 @@
+ 
+                 while (readbytes = read(urifd, sendmessage, BUFSIZE)) {
+                         if (readbytes < 0) {
++                                free(sendmessage);
+                                 perror("read");
+                                 pthread_exit(NULL);
+                         }
+                         if (send(sockfd, sendmessage, readbytes, 0) < 0) {
++                                free(sendmessage);
+                                 perror("send");
+                                 pthread_exit(NULL);
+                         }

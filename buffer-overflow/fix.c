@@ -85,10 +85,11 @@ char *get_header(const httpreq_t *req, const char* headername) {
         if (hdrptr = strstr(req->headers, searchstr)) {
                 hdrptr += strlen(searchstr);
                 if (hdrend = strstr(hdrptr, "\r\n")) {
-                        //PATCH
-                        if (hdrend - hdrptr > 1024) {
-                            BUFSIZE = hdrend - hdrptr
+
+                        if (hdrend - hdrptr + 1 > 1024) {
+                            BUFSIZE = hdrend - hdrptr;
                         }
+
                         char hdrval[BUFSIZE]; // temporary return value
                         memcpy((char *)hdrval, hdrptr, (hdrend - hdrptr));
                         hdrval[hdrend - hdrptr] = '\0'; // tack null onto end of header value
@@ -217,8 +218,6 @@ char *status(int statcode) {
 int send_response(int sockfd, httpreq_t *req, int statcode) {
         int urifd;
         const int BUFSIZE = 1024;
-        //char sendmessage[BUFSIZE];
-        //PATCH
         char *sendmessage;
         sendmessage = (char *)malloc((BUFSIZE) * sizeof(char));
         char *path = req->uri;
@@ -318,9 +317,8 @@ int send_response(int sockfd, httpreq_t *req, int statcode) {
                 strcat(sendmessage, "</title></head><body><h2>HTTP/1.0</h2><h1>");
                 strcat(sendmessage, status(statcode));
                 strcat(sendmessage, "</h1><h2>URI: ");
-                // PATCH
-                int total_length = strlen(sendmessage) + strlen(path) + strlen("</h2></body></html>"); 
 
+                int total_length = strlen(sendmessage) + strlen(path) + strlen("</h2></body></html>"); 
                 if(total_length > BUFSIZE) {
                     sendmessage = realloc(sendmessage, total_length);
                 }
