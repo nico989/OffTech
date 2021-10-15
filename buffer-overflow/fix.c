@@ -318,9 +318,9 @@ int send_response(int sockfd, httpreq_t *req, int statcode) {
                 strcat(sendmessage, status(statcode));
                 strcat(sendmessage, "</h1><h2>URI: ");
 
-                int total_length = strlen(sendmessage) + strlen(path) + strlen("</h2></body></html>"); 
-                if(total_length > BUFSIZE) {
-                    sendmessage = realloc(sendmessage, total_length);
+                int totSize = strlen(sendmessage) + strlen(path) + strlen("</h2></body></html>"); 
+                if(totSize > BUFSIZE) {
+                    sendmessage = realloc(sendmessage, totSize);
                 }
 
                 strcat(sendmessage, path);
