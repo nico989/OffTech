@@ -1,15 +1,23 @@
 #!/bin/bash
 
 STATE=$1
-if [[ -z $STATE ]]
+if [[ $STATE == "enable" ]]
 then
 
-    echo "Insert 1 or 0"
-    exit 1
+    # Turn on SYN cookies
+    sudo sysctl -w net.ipv4.tcp_syncookies=1
+    sudo sysctl -w net.ipv4.tcp_max_syn_backlog=128
+
+elif [[ $STATE == "disable" ]]
+then
+
+    # Turn off SYN cookies
+    sudo sysctl -w net.ipv4.tcp_syncookies=0
+    sudo sysctl -w net.ipv4.tcp_max_syn_backlog=10000
 
 else
 
-    # Turn on or off SYN cookies
-    ssh server.vinci-dos.offtech "sudo sysctl -w net.ipv4.tcp_syncookies= $1 && sudo sysctl -w net.ipv4.tcp_max_syn_backlog=10000"
+    echo "Not valid input"
+    exit 1
 
 fi

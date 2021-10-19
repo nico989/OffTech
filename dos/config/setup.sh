@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Install server
 echo "Install server on Server Node"

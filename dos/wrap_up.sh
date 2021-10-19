@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Set up Server and Attacker
 echo "Start Set up"
@@ -7,40 +7,34 @@ echo "-------------------------------------------------------------------"
 
 # Disable SYN Cookies
 echo "Disable SYN Cookies"
-./config/syn_cookies.sh 0
+ssh server.vinci-dos.offtech "./config/syn_cookies.sh disable"
 
 # Start gathering data on Client
-echo "Start tcpdump on Client"
-ssh client.vinci-dos.offtech "sudo -c ./sniffer/sniff.sh traffic_no_syn_cookies"
+ssh client.vinci-dos.offtech "./sniffer/sniff.sh traffic_no_syn_cookies"
 
 # Start legitimate traffic
-echo "Start legitimate traffic"
-ssh client.vinci-dos.offtech "sudo -c ./traffic/leg_traffic.sh"
+ssh client.vinci-dos.offtech "./traffic/leg_traffic.sh"
 
 # Wait 30 seconds
 echo "Wait 30 seconds"
 sleep 30
 
 # Start attack
-echo "Start attack"
-ssh attacker.vinci-dos.offtech "sudo -c ./traffic/attack.sh"
+ssh attacker.vinci-dos.offtech "./traffic/attack.sh"
 
-# Disable SYN Cookies
+# Enable SYN Cookies
 echo "Enable SYN Cookies"
-./config/syn_cookies.sh 1
+ssh server.vinci-dos.offtech "./config/syn_cookies.sh enable"
 
 # Start gathering data on Client
-echo "Start tcpdump on Client"
-ssh client.vinci-dos.offtech "sudo -c ./sniffer/sniff.sh traffic_yes_syn_cookies"
+ssh client.vinci-dos.offtech "./sniffer/sniff.sh traffic_yes_syn_cookies"
 
 # Start legitimate traffic
-echo "Start legitimate traffic"
-ssh client.vinci-dos.offtech "sudo -c ./traffic/leg_traffic.sh"
+ssh client.vinci-dos.offtech "./traffic/leg_traffic.sh"
 
 # Wait 30 seconds
 echo "Wait 30 seconds"
 sleep 30
 
 # Start attack
-echo "Start attack"
-ssh attacker.vinci-dos.offtech "sudo -c ./traffic/attack.sh"
+ssh attacker.vinci-dos.offtech "./traffic/attack.sh"
