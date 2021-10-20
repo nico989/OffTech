@@ -1,0 +1,8 @@
+set link1 [$ns duplex-link $server $client 1000Mb 0ms DropTail]
+set link2 [$ns duplex-link $server $attacker 1000Mb 0ms DropTail]
+
+tb-set-ip-link $server $link1 11.12.13.1
+tb-set-ip-link $client $link1 11.12.13.2
+
+tb-set-ip-link $server $link2 22.23.24.1
+tb-set-ip-link $attacker $link2 22.23.24.2
