@@ -56,7 +56,7 @@ def main():
     # graph title
     plt.title('TCP SYN Flood file: ' + str(sys.argv[1])) 
 
-    plt.plot(xtime, ydurations, color= 'black', linestyle=':', linewidth='3')
+    plt.plot(xtime, ydurations, color= 'black', linewidth='1')
 
     # Start attack data
     plt.axvline(x=30, color='red')
