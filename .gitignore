@@ -1,5 +1,6 @@
 # Folder
 .vscode
+__pycache__
 
 # File
 sh.exe.stackdump
