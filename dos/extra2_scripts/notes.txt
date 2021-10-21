@@ -1,10 +1,13 @@
 sudo flooder --dst 22.23.24.1 --highrate 200 --proto 6 --dportmin 80 --dportmax 80 --src 22.23.24.2 --srcmask 255.255.255.255
-with no spoof by attacker --> attacker responds with RST because it doesn't know to have sent the first ACK
+with no spoof by attacker --> attacker responds with RST because it doesn't know to have sent the first ACK (free TCB)
 
 sudo flooder --dst 22.23.24.1 --highrate 200 --proto 6 --dportmin 80 --dportmax 80 --src 22.23.24.25 --srcmask 255.255.255.0
-with spoof by attacker --> server responds in broadcast to attacker with SYN ACK because the attacker and the client are no more under the same network
+with spoof by attacker --> the server does not respond in time to attacker SYNs.
+After all SYN, server responds in broadcast to attacker (22.23.24.25.255) with SYN ACK because it is no be able to solve the ARP protocol 
+to find the MAC of the spoofed IP. So, the half-tcp connection is not established and the memory is not allocated.
+Also, the attacker and the client are no more under the same network.
 
 sudo flooder --dst 22.23.24.1 --highrate 200 --proto 6 --dportmin 80 --dportmax 80 --src 11.12.13.2 --srcmask 255.255.255.255
-with spoof by attacker exploiting the client ip knowledge --> client receives a lot of SYN ACK but it responses back with RST, because it did not generate those SYN
+with spoof by attacker exploiting the client ip knowledge --> client receives a lot of SYN ACK but it responses back with RST, because it did not generate those SYN (free TCB)
 
 In any case client is able to perform request

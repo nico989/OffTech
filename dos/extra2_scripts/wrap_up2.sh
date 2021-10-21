@@ -9,6 +9,9 @@ SOURCE=$2
 # Dest IP
 DEST=$3
 
+# Spoof
+SPOOF=$4
+
 # SYN Cookies
 echo "$STATE SYN Cookies"
 ssh server.vinci-dos.offtech "sudo ./extra2_scripts/config/syn_cookies.sh $STATE"
@@ -27,11 +30,11 @@ ETHSA=$(ssh server.vinci-dos.offtech "sudo ip route" | grep 22.23.24.1 | awk -F 
 
 # Start gathering data on Client
 echo "Start tcpdump on Client towards Server" 
-ssh client.vinci-dos.offtech "sudo ./extra2_scripts/sniffer/sniff.sh client_server.pcap $ETHC" &> /dev/null 
+ssh client.vinci-dos.offtech "sudo ./extra2_scripts/sniffer/sniff.sh client.pcap $ETHC" &> /dev/null 
 
 # Start gathering data on Attacker
 echo "Start tcpdump on Attacker towards Server" 
-ssh attacker.vinci-dos.offtech "sudo ./extra2_scripts/sniffer/sniff.sh attacker_server.pcap $ETHA" &> /dev/null 
+ssh attacker.vinci-dos.offtech "sudo ./extra2_scripts/sniffer/sniff.sh attacker.pcap $ETHA" &> /dev/null 
 
 # Start gathering data on Server-Client
 echo "Start tcpdump on Server towards Client" 
@@ -51,7 +54,7 @@ sleep 30
 
 # Start attack
 echo "Start attack"
-ssh attacker.vinci-dos.offtech "sudo ./extra2_scripts/traffic/attack_2.sh $SOURCE $DEST" &> /dev/null 
+ssh attacker.vinci-dos.offtech "sudo ./extra2_scripts/traffic/attack_2.sh $SOURCE $DEST $SPOOF" &> /dev/null 
 
 # Wait end
 echo "Wait end"
