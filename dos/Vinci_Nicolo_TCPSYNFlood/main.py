@@ -41,7 +41,7 @@ def main():
 
     # Compute connection duration
     for trace in traces:
-        if trace["packets"][0][0] == 'S' and trace["packets"][-2][0] == 'FA' and trace["packets"][-1][0] == 'A' or trace["packets"][-1][0] == 'R':
+        if trace["packets"][0][0] == 'S' and ((trace["packets"][-2][0] == 'FA' and trace["packets"][-1][0] == 'A') or trace["packets"][-1][0] == 'R'):
             ydurations.append(trace["packets"][-1][1] - trace["packets"][0][1])
         else:
             ydurations.append(200)
