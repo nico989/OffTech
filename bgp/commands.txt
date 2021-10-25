@@ -1,19 +1,17 @@
-#!/bin/sh
-
 # Task 1
 # Remove default routes on asn3 and asn2
 sudo ip route del 10.1.1.0/24
 
 # On client
-traceroute -n 10.1.1.2
-netstat -rn
-sudo vtysh -c "show ip route"
+traceroute -n 10.1.1.2 > 1_client_traceroute.txt
+netstat -rn > 1_client_netstat.txt
+sudo vtysh -c "show ip route" > 1_client_vtysh.txt
 # Username: anonymous and random password
 # Once connected, type "get README"
 ftp 10.1.1.2
 
 # On asn3
-sudo vtysh -c "show ip bgp"
+sudo vtysh -c "show ip bgp" > 1_asn3_vtysh.txt
 
 # On asn2
 sudo vtysh -c "show ip bgp"
@@ -37,13 +35,13 @@ sudo iptables -t nat -A PREROUTING -d 10.1.1.2 -m ttl --ttl-gt 1 -j NETMAP --to 
 sudo iptables -t nat -A POSTROUTING -s 10.6.1.2 -j NETMAP --to 10.1.1.2
 
 # On client
-traceroute -n 10.1.1.2 
+traceroute -n 10.1.1.2 > 2_client_traceroute.txt
 # Username: anonymous and random password
 # Once connected, type "get README"
 ftp 10.1.1.2
 
 # On asn3
-sudo vtysh -c "show ip bgp"
+sudo vtysh -c "show ip bgp" > 2_asn3_vtysh.txt
 
 # On asn2
 sudo vtysh -c "show ip bgp"
@@ -63,13 +61,13 @@ end
 exit
 
 # On client
-traceroute -n 10.1.1.2 
+traceroute -n 10.1.1.2 > 3_client_traceroute.txt
 # Username: anonymous and random password
 # Once connected, type "get README"
 ftp 10.1.1.2
 
 # On asn3
-sudo vtysh -c "show ip bgp"
+sudo vtysh -c "show ip bgp" > 3_asn3_vtysh.txt
 
 # On asn2
 sudo vtysh -c "show ip bgp"
