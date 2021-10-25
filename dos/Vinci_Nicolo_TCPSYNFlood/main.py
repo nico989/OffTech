@@ -50,9 +50,9 @@ def main():
     # Print full screen on Windows
     plt.get_current_fig_manager().window.state('zoomed')
     # x label
-    plt.xlabel('Connections start')
+    plt.xlabel('Connections start [s]')
     # y label
-    plt.ylabel('Connections duration')  
+    plt.ylabel('Connections duration [s]')  
     # graph title
     plt.title('TCP SYN Flood file: ' + str(sys.argv[1])) 
 
