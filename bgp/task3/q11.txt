@@ -1,0 +1,7 @@
+Client 10.5.0.2
+Asn3 10.5.0.1
+Asn4 10.4.0.2
+Attacker 10.1.1.2
+
+There are 3 hops.
+Difference from task 2: the request goes through Asn4 and to the Attacker.

@@ -1,0 +1,2 @@
+AS path to reach 10.1.0.0/16:
+Network: 10.1.0.0/16, Next hop: 10.3.0.2, AS path: 65002 65001 i

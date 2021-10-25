@@ -1,0 +1,8 @@
+AS path to reach 10.1.0.0/16:
+Network: 10.1.0.0/16, Next hop: 10.3.0.2, AS path: 65002 65001 i
+
+The AS path differs from task 2:
+Network: 10.1.0.0/16, Next hop: 10.4.0.2, AS path: 65004 i
+
+AS path to reach 10.1.1.0/24:
+Network: 10.1.1.0/24, Next hop: 10.4.0.2, AS path: 65004 i

@@ -1,0 +1,2 @@
+For routes itself: There is one information more regarding the loopback interface.
+For information on routes: vtysh tells if they are static routes ("via") or connected routes ("is directly connected")

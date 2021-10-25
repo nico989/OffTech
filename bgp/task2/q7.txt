@@ -1,0 +1,7 @@
+Client 10.5.0.2
+Asn3 10.5.0.1
+Asn2 10.3.0.2
+Asn1 10.2.0.1
+Server 10.1.1.2
+
+No change, because in asn3 it matches the more specific route for 10.1.1.0/24 and not the route for 10.1.0.0/16
