@@ -1,0 +1,2 @@
+# On client machine
+dig www.google.com A
