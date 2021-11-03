@@ -7,7 +7,7 @@ directory "/var/cache/bind" --> "/etc/bind"
 # ZSK
 dnssec-keygen -a RSASHA512 -b 1024 -n ZONE google.com
 # KSK
-dnssec-keygen -f KSK -a RSASHA512 -b 1024 -n ZONE google.com
+dnssec-keygen -f KSK -a RSASHA512 -b 2048 -n ZONE google.com
 # In google.com
 $include Kgoogle.com.*.key
 $include Kgoogle.com.*.key
