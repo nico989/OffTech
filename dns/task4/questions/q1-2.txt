@@ -1,9 +1,5 @@
 # Q1
-zsk_client.png
 ksk+zsk_client.png
-
-# Q2 (only zsk)
-commands.txt
 
 # Q2 (ksk+zsk)
 ksk_commands.txt

@@ -2,8 +2,8 @@
 ettercap --text --iface eth0 --nosslmitm --nopromisc --only-mitm --mitm arp /10.1.2.2/// /10.1.2.3///
 
 # Q2
--- text : text interface
---iface: interface
+--text : text interface.
+--iface: interface.
 --nosslmitm: disable SSL certificates forgery. Used to intercept https traffic.
 --only-mitm: do not sniff, only perform MitM attack.
 --nopromisc: disable sniff of all traffic in iface.
@@ -19,7 +19,7 @@ Auth server MAC: 00:04:23:ae:cc:32
 Yes
 
 # Q4
-Differs, because the attacker is sending gratuitous arp to chace impersonating auth and to auth impersonating cache.
+Differs, because the attacker is sending gratuitous arp to cache impersonating auth and to auth impersonating cache.
 
 # Q6
 # At the bottom of /etc/ettercap/etter.dns

@@ -1,0 +1,21 @@
+# Q1
+# On client machine
+ifconfig
+arp -n 
+# On cache machine
+ifconfig
+arp -n 
+# On client machine
+sudo apt install traceroute -y
+sudo traceroute -n 10.1.1.3
+
+# Q4
+# On cache machine
+ifconfig
+arp -n 
+# On auth machine
+ifconfig
+arp -n 
+# On cache machine
+sudo apt install traceroute -y
+sudo traceroute -n 10.1.2.3
