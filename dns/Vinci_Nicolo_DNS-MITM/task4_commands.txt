@@ -1,0 +1,49 @@
+# On auth machine
+
+# On named.conf.options add
+# dnssec-enable yes;
+# dnssec-validation yes;
+# directory "/var/cache/bind" --> "/etc/bind"
+
+# Generate ZSK
+dnssec-keygen -a RSASHA512 -b 1024 -n ZONE google.com
+
+# Generate KSK
+dnssec-keygen -f KSK -a RSASHA512 -b 2048 -n ZONE google.com
+
+# In google.com add
+# $include Kgoogle.com.*.key
+# $include Kgoogle.com.*.key
+
+# Sign zone
+dnssec-signzone -3 $(head -c 1000 /dev/urandom | sha1sum | cut -b 1-16) google.com 
+
+# In named.conf.local
+# file: "/etc/bind/google.com" --> "/etc/bind/google.com.signed"
+
+# Restart
+service bind9 restart
+
+# On cache machine
+
+# On named.conf.options add
+# dnssec-enable yes;
+# dnssec-validation yes;
+# directory "/var/cache/bind" --> "/etc/bind"
+
+# Create nico.keys
+vim nico.keys
+# Add 
+# managed-keys {
+#    google.com. initial-key 257 3 10 "KSK";
+#    google.com. initial-key 256 3 10 "ZSK";
+# };
+
+# In named.conf add
+# include "/etc/bind/nico.keys";
+
+# Restart
+service bind9 restart
+
+# Test on client machine
+dig +dnssec www.google.com A
