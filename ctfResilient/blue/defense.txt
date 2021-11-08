@@ -1,0 +1,7 @@
+# For traffic monitoring
+tpcdump and manage the live stream
+pyshark
+scapy
+
+# For firewall
+iptables

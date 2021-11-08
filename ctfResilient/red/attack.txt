@@ -1,0 +1,17 @@
+# Legitimate request
+gen_traffic.sh
+
+# DoS attack
+Ping flood spoofing
+Ping of death
+TCP SYN flood trivial
+TCP SYN flood (spoofing)
+DNS amplification
+NTP 
+Load to server a Zip bomb
+SlowLoris (https://github.com/gkbrk/slowloris)
+Torshammer (https://github.com/dotfighter/torshammer)
+HTTP DoS
+
+# HTTP DoS
+goldeneye
