@@ -6,9 +6,12 @@ Ping flood spoofing
 Ping of death
 TCP SYN flood trivial
 TCP SYN flood (spoofing)
+LAND attack (TCP SYN packet set destination IP and destination port equals to source IP and source port )
+UDP flood
 DNS amplification
 NTP 
 Load to server a Zip bomb
+Malloc bomb (RAM DoS)
 SlowLoris (https://github.com/gkbrk/slowloris)
 Torshammer (https://github.com/dotfighter/torshammer)
 HTTP DoS
