@@ -2,6 +2,7 @@
 tpcdump and manage the live stream
 pyshark
 scapy
+check latency of ping
 
 # For firewall
 iptables
