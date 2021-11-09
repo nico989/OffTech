@@ -5,7 +5,6 @@ scapy
 
 # For server status
 check latency with ping/curl
-apache benchmark
 iftop on server (sudo apt-get install iftop)
 
 # For firewall

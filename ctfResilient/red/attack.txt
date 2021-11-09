@@ -21,3 +21,7 @@ flooder
 ufonet
 ddosim
 nemesis
+apache benchmark (stress test)
+
+# Scan for vuln
+nikto (sudo apt-get install nikto -y)

