@@ -13,10 +13,10 @@ HTTP DoS slow
 Load to server a Zip bomb
 
 # Tool DoS
-goldeneye
-slowloris (https://github.com/gkbrk/slowloris)
+goldeneye V
+slowloris (https://github.com/gkbrk/slowloris) V
 torshammer (https://github.com/dotfighter/torshammer)
-hping3 (sudo apt install hping3 -y)
+hping3 (sudo apt install hping3 -y) V
 flooder
 ufonet
 ddosim
@@ -24,4 +24,4 @@ nemesis
 apache benchmark (stress test)
 
 # Scan for vuln
-nikto (sudo apt-get install nikto -y)
+nikto (sudo apt-get install nikto -y) V

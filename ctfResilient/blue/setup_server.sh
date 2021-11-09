@@ -1,5 +1,5 @@
-sudo apt-get update
-sudo apt-get install apache2
+sudo apt-get update 2> /dev/null
+sudo apt-get install apache2 -y 2> /dev/null
 
 1.html
 2.html

