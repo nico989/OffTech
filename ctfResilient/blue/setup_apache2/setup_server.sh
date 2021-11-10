@@ -12,12 +12,12 @@ fi
 # update repositories
 printf "Updating repositories..."
 apt-get update > /dev/null
-printf " done!\n"
+printf " done! (1/5)\n"
 
 # install apache2
-printf "Installing apache2..."
-apt-get install apache2 -y > /dev/null
-printf " done!\n"
+printf "Installing apache2, python3-setuptools, ..."
+apt-get install apache2 python3-setuptools -y > /dev/null
+printf " done! (2/5)\n"
 
 # create html files
 printf "Creating html files..."
@@ -25,7 +25,7 @@ for i in {1..10};
 do 
     sudo touch "/var/www/html/$i.html"; 
 done;
-printf " done!\n"
+printf " done! (3/5)\n"
 
 # start the server
 printf "Checking server status..."
@@ -41,4 +41,10 @@ if [[ $? -ne 0 ]]
 then	
 	echo "\nCannot start server. Try:\n\tsudo service apache2 status"
 fi
-printf " done!\n"
+printf " done! (4/5)\n"
+
+printf "Installing scapy from scapy-master..."
+cd /users/otech2ac/lib/scapy-master/
+python3 -W ignore setup.py install > /dev/null
+cd 
+printf " done! (5/5)\n"

@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Patch apache conf
+printf "Patch apache2.conf"
 sudo patch /etc/apache2/apache2.conf -i apache2.patch
 
 # Install modsecurity
