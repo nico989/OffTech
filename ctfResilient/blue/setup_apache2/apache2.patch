@@ -1,27 +1,26 @@
---- apache2.conf        2021-11-10 11:22:24.456133268 -0800
-+++ apache2_patch.conf  2021-11-10 11:23:44.461835521 -0800
+--- apache2.conf	2021-09-28 15:27:27.000000000 -0700
++++ apache2_patch.conf	2021-11-10 14:48:04.650374353 -0800
 @@ -89,13 +89,13 @@
  #
  # Timeout: The number of seconds before receives and sends time out.
  #
 -Timeout 300
 +Timeout 2
-
+ 
  #
  # KeepAlive: Whether or not to allow persistent connections (more than
  # one request per connection). Set to "Off" to deactivate.
  #
 -KeepAlive On
 +KeepAlive Off
-
+ 
  #
  # MaxKeepAliveRequests: The maximum number of requests to allow
-@@ -225,3 +225,8 @@
+@@ -225,3 +225,7 @@
  IncludeOptional sites-enabled/*.conf
-
+ 
  # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
-+
 +ServerSignature Off
 +<Directory /var/www/html>
-+       Options -Indexes
++	Options -Indexes
 +</Directory>

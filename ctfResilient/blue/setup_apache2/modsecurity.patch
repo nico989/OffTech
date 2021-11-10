@@ -1,8 +1,11 @@
---- modsecurity.conf    2021-11-10 11:29:14.756884777 -0800
-+++ modsecurity_patch.conf      2021-11-10 11:30:03.237921659 -0800
+--- modsecurity.conf	2021-11-10 15:01:46.132995723 -0800
++++ modsecurity_patch.conf	2021-11-10 15:03:28.810872077 -0800
 @@ -4,7 +4,7 @@
  # only to start with, because that minimises the chances of post-installation
  # disruption.
  #
 -SecRuleEngine DetectionOnly
-+SecRuleEngine O
++SecRuleEngine On
+ 
+ 
+ # -- Request body handling ---------------------------------------------------
