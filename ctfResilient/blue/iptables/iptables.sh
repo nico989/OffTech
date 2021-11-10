@@ -63,3 +63,5 @@ sudo iptables -A OUTPUT -p udp --dport 67:68 --sport 67:68 -j ACCEPT
 # Outbound HTTP only on port 80
 sudo iptables -A OUTPUT -p tcp -m tcp --dport 80 -m conntrack --ctstate NEW -j ACCEPT
 
+# Drop any ACK with connection not established
+

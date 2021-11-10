@@ -15,7 +15,7 @@ service apache2 restart
 
 # Install mod_evasive
 sudo apt install libapache2-mod-evasive -y
-sudo vim /etc/apache2/mods-enabled/evasive.conf
+sudo vim /etc/apache2/mods-available/evasive.conf
 Uncomment all ecept for DOSEmailNotify, DOSSystemCommand
 service apache2 restart
 
@@ -24,5 +24,4 @@ vim /etc/apache2/apache2.conf
 Tune: TimeOut, MaxClients, KeepAlive, MaxKeepAliveRequests, KeepAliveTimeout, LimitRequestFields, LimitRequestFields 
 TimeOut 2 
 KeepAlive Off
-MaxClients 50
 service apache2 restart
