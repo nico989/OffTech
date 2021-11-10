@@ -1,0 +1,28 @@
+# Remove signature and file list
+vim /etc/apache2/apache2.conf 
+Add --> ServerSignature Off
+Add --> <Directory /var/www/html>
+            Options -Indexes
+        </Directory>
+service apache2 restart
+
+# Install mod_security
+sudo apt install libapache2-mod-security2 -y
+sudo cp /etc/modsecurity/modsecurity.conf-recommended /etc/modsecurity/modsecurity.conf
+sudo vim /etc/modsecurity/modsecurity.conf
+Change --> SecRuleEngine DetectionOnly in SecRuleEngine Options
+service apache2 restart
+
+# Install mod_evasive
+sudo apt install libapache2-mod-evasive -y
+sudo vim /etc/apache2/mods-enabled/evasive.conf
+Uncomment all ecept for DOSEmailNotify, DOSSystemCommand
+service apache2 restart
+
+# Tune parameters (resists to goldeneye)
+vim /etc/apache2/apache2.conf 
+Tune: TimeOut, MaxClients, KeepAlive, MaxKeepAliveRequests, KeepAliveTimeout, LimitRequestFields, LimitRequestFields 
+TimeOut 2 
+KeepAlive Off
+MaxClients 50
+service apache2 restart
