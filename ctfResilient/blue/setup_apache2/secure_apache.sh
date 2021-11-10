@@ -16,4 +16,4 @@ sudo apt install libapache2-mod-evasive -y
 sudo patch /etc/apache2/mods-available/evasive.conf -i evasive.patch
 
 # Restart apache2
-service apache2 restart
+sudo service apache2 restart
