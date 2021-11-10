@@ -51,3 +51,4 @@ python3 slowloris.py 10.1.5.2
 # Vulnerability Scan
 sudo apt-get install nikto -y
 nikto -h 10.1.5.2 -p 80
+nikto -h 10.1.5.2 -p 80 -C all

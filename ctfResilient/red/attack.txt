@@ -22,6 +22,7 @@ ufonet
 ddosim
 nemesis
 apache benchmark (stress test)
+hulk
 
 # Scan for vuln
 nikto (sudo apt-get install nikto -y) V
