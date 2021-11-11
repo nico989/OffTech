@@ -48,3 +48,25 @@ cd /users/otech2ac/lib/scapy-master/
 python3 -W ignore setup.py install > /dev/null
 cd 
 printf " done! (5/5)\n"
+
+printf "Securing apache2\n"
+# Patch apache conf
+printf "Patch apache2.conf..."
+patch /etc/apache2/apache2.conf -i /users/otech2ah/setup_apache2/apache2.patch > /dev/null
+printf " done! (1/3)\n"
+
+# Install modsecurity
+printf "Install modsecurity..."
+apt-get install libapache2-mod-security2 -y > /dev/null
+cp /etc/modsecurity/modsecurity.conf-recommended /etc/modsecurity/modsecurity.conf
+patch /etc/modsecurity/modsecurity.conf -i /users/otech2ah/setup_apache2/modsecurity.patch > /dev/null
+printf " done!(2/3)\n"
+
+# Install modevasive
+printf "Install modevasive..."
+apt-get install libapache2-mod-evasive -y
+patch /etc/apache2/mods-available/evasive.conf -i /users/otech2ah/setup_apache2/evasive.patch > /dev/null
+printf "done!(3/3)\n"
+
+# Restart apache2
+service apache2 restart
