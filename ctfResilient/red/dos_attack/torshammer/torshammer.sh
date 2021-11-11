@@ -8,5 +8,5 @@ then
         sudo python torshammer.py -t 10.1.5.2 -r $1 > /dev/null
     fi
 else
-    echo "YOU NEED TO SPECIFY THREADS"
+    echo "Usage: ./torshammer.sh <THREADS>"
 fi

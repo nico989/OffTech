@@ -10,5 +10,5 @@ then
         sudo python goldeneye.py http://10.1.5.2:80/ -m $1 -s $2 -w $3 > /dev/null
     fi
 else
-    echo "YOU NEED TO SPECIFY REQUEST, SOCKS AND WORKERS"
+    echo "Usage: ./goldeneye.sh <REQUEST> <SOCKS> <WORKERS>"
 fi

