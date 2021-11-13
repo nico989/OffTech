@@ -31,6 +31,15 @@ metric = {
 # client IP list
 clients = []
 
+def format_bytes(size):
+    power = 2**10
+    n = 0
+    power_labels = {0 : 'B', 1: 'K', 2: 'M', 3: 'G', 4: 'T'}
+    while size > power:
+        size /= power
+        n += 1
+    return str(size)+power_labels[n]
+
 def storePacket(packet):
     recv_bytes = len(packet)
     prot = packet.getlayer(2).name
@@ -63,16 +72,17 @@ def storeClients(packet):
         })
 
 def printall():
-    print(f'[TCP SYN] packets:{metric["syn"][0]}, bytes:\t{metric["syn"][1]}')
-    print(f'[TCP] packets:\t{metric["tcp"][0]}, bytes:\t{metric["tcp"][1]}')
-    print(f'[UDP] packets:\t{metric["udp"][0]}, bytes:\t{metric["udp"][1]}')
-    print(f'[ICMP] packets:\t{metric["icmp"][0]}, bytes:\t{metric["icmp"][1]}')
-    print(f'[TOTAL] packets:{metric["total"][0]}, bytes:\t{metric["total"][1]}\n')
+    print(f'[TCP SYN] packets:{metric["syn"][0]}, bytes:\t{format_bytes(metric["syn"][1])}')
+    print(f'[TCP] packets:\t{metric["tcp"][0]}, bytes:\t{format_bytes(metric["tcp"][1])}')
+    print(f'[UDP] packets:\t{metric["udp"][0]}, bytes:\t{format_bytes(metric["udp"][1])}')
+    print(f'[ICMP] packets:\t{metric["icmp"][0]}, bytes:\t{format_bytes(metric["icmp"][1])}')
+    print(f'[TOTAL] packets:{metric["total"][0]}, bytes:\t{format_bytes(metric["total"][1])}\n')
 
 def logClients():
     log = open("logClients.txt", "a")
+    log_time = datetime.now(timezone(timedelta(hours=+1))).strftime("%Y-%m-%d %H:%M:%S")
     for client in clients:
-        log.write(f'{datetime.now(timezone(timedelta(hours=+1))).strftime("%Y-%m-%d %H:%M:%S")} {client["srcIP"]}: [packets={client["packets"]}, bytes={client["bytes"]}]\n')
+        log.write(f'{log_time} {client["srcIP"]}: [packets={client["packets"]}, bytes={format_bytes(client["bytes"])}]\n')
     log.close()
 
 def process_packet(packet):
@@ -93,7 +103,7 @@ def process_packet(packet):
 
     global now
     delta = datetime.now() - now
-    if delta.total_seconds() > 3:
+    if delta.total_seconds() > 5:
         now = datetime.now()
         printall()
         logClients()
