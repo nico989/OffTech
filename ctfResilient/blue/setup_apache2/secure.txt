@@ -20,6 +20,7 @@ Uncomment all ecept for DOSEmailNotify, DOSSystemCommand
 service apache2 restart
 
 # Install mod_qos
+# Install mod_reqtimeout
 
 # Tune parameters (resists to goldeneye)
 vim /etc/apache2/apache2.conf 
