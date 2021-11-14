@@ -14,7 +14,7 @@ then
         then
             echo "ALERT"
         else
-            printf "Time: %.3fms\n" $TIME
+            printf "Time: %.3f ms\n" $TIME
         fi
         sleep $WAIT
     done

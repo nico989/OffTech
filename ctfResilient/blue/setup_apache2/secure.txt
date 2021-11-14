@@ -19,6 +19,8 @@ sudo vim /etc/apache2/mods-available/evasive.conf
 Uncomment all ecept for DOSEmailNotify, DOSSystemCommand
 service apache2 restart
 
+# Install mod_qos
+
 # Tune parameters (resists to goldeneye)
 vim /etc/apache2/apache2.conf 
 Tune: TimeOut, MaxClients, KeepAlive, MaxKeepAliveRequests, KeepAliveTimeout, LimitRequestFields, LimitRequestFields 

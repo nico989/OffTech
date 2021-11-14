@@ -11,9 +11,9 @@ then
         NEWCLIENT1=$(sudo iptables -L -v | grep NEW | sed -n '1p' | head -c 5)
         NEWCLIENT2=$(sudo iptables -L -v | grep NEW | sed -n '2p' | head -c 5)
         NEWCLIENT3=$(sudo iptables -L -v | grep NEW | sed -n '3p' | head -c 5)
-        ESTCLIENT1=$(sudo iptables -L -v | grep ESTABLISHED | sed -n '4p' | head -c 5)
-        ESTCLIENT2=$(sudo iptables -L -v | grep ESTABLISHED | sed -n '5p' | head -c 5)
-        ESTCLIENT3=$(sudo iptables -L -v | grep ESTABLISHED | sed -n '6p' | head -c 5)
+        ESTCLIENT1=$(sudo iptables -L -v | grep ESTABLISHED | sed -n '1p' | head -c 5)
+        ESTCLIENT2=$(sudo iptables -L -v | grep ESTABLISHED | sed -n '2p' | head -c 5)
+        ESTCLIENT3=$(sudo iptables -L -v | grep ESTABLISHED | sed -n '3p' | head -c 5)
         DEFAULTDROP=$(sudo iptables -L -v | grep DROP | sed -n '2p' | cut -d " " -f 5)
         MYDROP=$(sudo iptables -L -v | grep DROP | sed -n '5p' | head -c 5)
         printf "\n"
