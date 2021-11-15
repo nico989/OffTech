@@ -12,9 +12,9 @@ then
         TIME=$(ping -c 1 10.1.5.2 | awk -F " " 'FNR==2{print substr($7,6)}')
         if [ -z $TIME ] || [ 1 -eq "$(echo "$TIME > $MIN" | bc)" ]
         then
-            echo "ALERT"
+            echo "Ping: ALERT"
         else
-            echo "Time:" $TIME "ms"
+            echo "Ping Time:" $TIME "ms"
         fi
         sleep $WAIT
     done
