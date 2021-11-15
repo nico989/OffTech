@@ -22,7 +22,8 @@ sudo iptables -A INPUT -s 10.1.5.2 -j ACCEPT
 # Hashlimit to drop TCP traffic from source IP after it sends 5 packets per second
 # Logs are in /var/log/kern.conf
 sudo iptables --new-chain TCP-LIMIT
-sudo iptables -A FORWARD -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 -s 10.1.2.2,10.1.3.2,10.1.4.2,10.1.1.2 --dport 80 -m conntrack --ctstate NEW -j TCP-LIMIT
+sudo iptables -A FORWARD -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 -s 10.1.2.2,10.1.3.2,10.1.4.2,10.1.1.2 --dport 80 -m conntrack --ctstate NEW  -m tcpmss --mss 1460 -j TCP-LIMIT
+#sudo iptables -A FORWARD -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 -s 10.1.2.2,10.1.3.2,10.1.4.2,10.1.1.2 --dport 80 -m conntrack --ctstate NEW  -m tcpmss --mss 1460 --sack-perm --timestamp --wscale 7 -j TCP-LIMIT
 sudo iptables -A FORWARD -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 -s 10.1.2.2,10.1.3.2,10.1.4.2,10.1.1.2 --dport 80 -m conntrack --ctstate ESTABLISHED -j ACCEPT
 sudo iptables -A FORWARD -i $SERVER_ETH -o $ROUTER_ETH -p tcp -s 10.1.5.2 -d 10.1.2.2,10.1.3.2,10.1.4.2,10.1.1.2 --sport 80 -m conntrack --ctstate ESTABLISHED -j ACCEPT
 sudo iptables -A TCP-LIMIT --match hashlimit --hashlimit-mode srcip --hashlimit-upto 5/sec --hashlimit-burst 20 --hashlimit-name tcp_rate_limit -j ACCEPT

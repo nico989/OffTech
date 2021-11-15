@@ -21,6 +21,7 @@ service apache2 restart
 
 # Install mod_qos
 # Install mod_reqtimeout
+# Install mod_antiloris
 
 # Tune parameters (resists to goldeneye)
 vim /etc/apache2/apache2.conf 
