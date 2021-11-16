@@ -83,6 +83,11 @@ def logClients():
     log_time = datetime.now(timezone(timedelta(hours=+1))).strftime("%Y-%m-%d %H:%M:%S")
     for client in clients:
         log.write(f'{log_time} {client["srcIP"]}: [packets={format_bytes(client["packets"])}, bytes={format_bytes(client["bytes"])}]\n')
+    log.write(f'[TCP SYN] packets:{format_bytes(metric["syn"][0])}, bytes:\t{format_bytes(metric["syn"][1])}\n')
+    log.write(f'[TCP] packets:\t{format_bytes(metric["tcp"][0])}, bytes:\t{format_bytes(metric["tcp"][1])}\n')
+    log.write(f'[UDP] packets:\t{format_bytes(metric["udp"][0])}, bytes:\t{format_bytes(metric["udp"][1])}\n')
+    log.write(f'[ICMP] packets:\t{format_bytes(metric["icmp"][0])}, bytes:\t{format_bytes(metric["icmp"][1])}\n')
+    log.write(f'[TOTAL] packets:{format_bytes(metric["total"][0])}, bytes:\t{format_bytes(metric["total"][1])}\n')
     log.close()
 
 def process_packet(packet):
@@ -104,7 +109,7 @@ def process_packet(packet):
 
         global now
         delta = datetime.now() - now
-        if delta.total_seconds() > 5:
+        if delta.total_seconds() > 7:
             now = datetime.now()
             printall()
             logClients()

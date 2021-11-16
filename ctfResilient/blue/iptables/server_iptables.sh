@@ -1,51 +1,37 @@
 #!/bin/bash
 
-gateway_interface=$(ip a | grep 10.1.5.2 | tail -c 5)
-deterlab_interface=$(ip a | grep 192.168 | tail -c 5)
+gateway_interface=$(ip a | grep 10.1.5.2 | cut -d ' ' -f 11)
+deterlab_interface=$(ip a | grep 192.168 | cut -d ' ' -f 11)
 
-
-sudo iptables -P INPUT ACCEPT
-sudo iptables -P OUTPUT ACCEPT
-sudo iptables -P FORWARD ACCEPT
-
-## FLUSH ALL EXISTING RULES
+# Clear iptables
 sudo iptables -F
 
-## ALLOW LOOPBACK TRAFFIC
-sudo iptables -A INPUT -i lo -j ACCEPT
-sudo iptables -A OUTPUT -o lo -j ACCEPT
-
-## ALLOW SSH CONNECTIONS 
+# Allow ssh connections 
 sudo iptables -A INPUT -i $deterlab_interface -j ACCEPT
 sudo iptables -A OUTPUT -o $deterlab_interface -j ACCEPT
 
-## BLOCK FRAGMENTED PACKETS
+# Allow loopback traffic
+sudo iptables -A INPUT -i lo -j ACCEPT
+sudo iptables -A OUTPUT -o lo -j ACCEPT
+
+# Allow traffic from/to server
+sudo iptables -A INPUT -s 10.1.5.3 -j ACCEPT
+sudo iptables -A OUTPUT -d 10.1.5.3 -j ACCEPT
+
+# Block fragmented packet
 sudo iptables -t mangle -A PREROUTING -f -j DROP
 
-## USE HASHLIMIT MODULE TO PUT LIMITS ON THE AMOUNT OF TRAFFIC PER SOURCE IP THAT CAN REACH THE SERVER
-sudo iptables --new-chain RATE-LIMIT
-
-## TCP CONNECTIONS
-### ALL NEW CONNECTIONS JUMP TO THE RATE-LIMIT CHAIN
-### EXISTING CONNECTIONS ARE ALLOWED TO PASS
-sudo iptables -A INPUT -i $gateway_interface -p tcp --dport 80 -m conntrack --ctstate NEW -j RATE-LIMIT
-sudo iptables -A INPUT -i $gateway_interface -p tcp --dport 80 -m conntrack --ctstate ESTABLISHED -j ACCEPT
-sudo iptables -A OUTPUT -p tcp --sport 80 -m conntrack --ctstate ESTABLISHED -j ACCEPT
-
-## ICMP REQUESTS
-### ALL NEW CONNECTIONS JUMP TO THE RATE-LIMIT CHAIN
-### REPLIES ARE ALLOWED TO PASS
-sudo iptables -A INPUT -i $gateway_interface -p icmp -m hashlimit --hashlimit-name icmp --hashlimit-mode srcip --hashlimit 100/second --hashlimit-burst 5 -j RATE-LIMIT
-sudo iptables -A OUTPUT -o $gateway_interface -p icmp --icmp-type echo-reply -j ACCEPT
-
-## RATE LIMIT CHAIN
-### IF A SINGLE IP SENDS CAN SEND ONLY 10 P/S
-### IF IT EXCEEDS THIS LIMIT THEN THE CONNECTIONS ARE LOGGED AND DROPPED
-sudo iptables -A RATE-LIMIT -m hashlimit --hashlimit-mode srcip --hashlimit-upto 10/sec --hashlimit-burst 20 --hashlimit-name conn_rate_limit -j ACCEPT
-sudo iptables -A RATE-LIMIT -m limit --limit 5/min -j LOG --log-prefix "DROPPED IP-Tables connections: "
-sudo iptables -A RATE-LIMIT -j DROP
+# Hashlimit to drop TCP traffic from source IP after it sends 5 packets per second
+# Logs are in /var/log/kern.conf
+sudo iptables --new-chain TCP-LIMIT
+sudo iptables -A INPUT -i $gateway_interface -p tcp --dport 80 -s 10.1.2.2,10.1.3.2,10.1.4.2 --dport 80-m conntrack --ctstate NEW  -m tcpmss --mss 1460 -j TCP-LIMIT
+sudo iptables -A INPUT -i $gateway_interface -p tcp --dport 80 -s 10.1.2.2,10.1.3.2,10.1.4.2 --dport 80 -m conntrack --ctstate ESTABLISHED -j ACCEPT
+sudo iptables -A OUTPUT -p tcp -d 10.1.2.2,10.1.3.2,10.1.4.2 --sport 80 -m conntrack --ctstate ESTABLISHED -j ACCEPT
+sudo iptables -A TCP-LIMIT --match hashlimit --hashlimit-mode srcip --hashlimit-upto 5/sec --hashlimit-burst 20 --hashlimit-name tcp_rate_limit -j ACCEPT
+sudo iptables -A TCP-LIMIT  -m limit --limit 3/min -j LOG --log-prefix "DROPPED TCP IP-Tables connections: "
+sudo iptables -A TCP-LIMIT -j DROP
  
-## SET DEFAULT POLICY TO DROP
+# Drop policy default
 sudo iptables -P INPUT DROP
 sudo iptables -P FORWARD DROP
 sudo iptables -P OUTPUT DROP
