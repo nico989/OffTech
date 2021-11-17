@@ -10,12 +10,15 @@ then
     while true
     do
         TIME=$(ping -c 1 10.1.5.2 | awk -F " " 'FNR==2{print substr($7,6)}')
+        MSG=""
         if [ -z $TIME ] || [ 1 -eq "$(echo "$TIME > $MIN" | bc)" ]
         then
-            echo "Ping: ALERT"
+            MSG=$(echo "Ping: ALERT")
         else
-            echo "Ping Time:" $TIME "ms"
+            MSG=$(echo "Ping Time:" $TIME "ms")
         fi
+        echo $MSG
+        echo $MSG >> log_ping_qos.txt
         sleep $WAIT
     done
 else
