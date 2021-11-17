@@ -16,12 +16,9 @@ then
         ESTCLIENT3=$(sudo iptables -L -v | grep ESTABLISHED | sed -n '3p' | head -c 5)
         DEFAULTDROP=$(sudo iptables -L -v | grep DROP | sed -n '2p' | cut -d " " -f 5)
         MYDROP=$(sudo iptables -L -v | grep DROP | sed -n '5p' | head -c 5)
-        printf "\n"
-        printf "[packets] CLIENT 1: {NEW=$NEWCLIENT1, ESTABLISHED=$ESTCLIENT1}\n"
-        printf "[packets] CLIENT 2: {NEW=$NEWCLIENT2, ESTABLISHED=$ESTCLIENT2}\n"
-        printf "[packets] CLIENT 3: {NEW=$NEWCLIENT3, ESTABLISHED=$ESTCLIENT3}\n"
-        printf "[packets] DROPPED:  {DEFAULT=$DEFAULTDROP, CUSTOM=$MYDROP}\n"
-        printf "\n"
+        printf "\n[packets] CLIENT 1: {NEW=$NEWCLIENT1, ESTABLISHED=$ESTCLIENT1}\n[packets] CLIENT 2: {NEW=$NEWCLIENT2, ESTABLISHED=$ESTCLIENT2}\n[packets] CLIENT 3: {NEW=$NEWCLIENT3, ESTABLISHED=$ESTCLIENT3}\n[packets] DROPPED:  {DEFAULT=$DEFAULTDROP, CUSTOM=$MYDROP}\n"
+        printf "\n[packets] CLIENT 1: {NEW=$NEWCLIENT1, ESTABLISHED=$ESTCLIENT1}\n[packets] CLIENT 2: {NEW=$NEWCLIENT2, ESTABLISHED=$ESTCLIENT2}\n[packets] CLIENT 3: {NEW=$NEWCLIENT3, ESTABLISHED=$ESTCLIENT3}\n[packets] DROPPED:  {DEFAULT=$DEFAULTDROP, CUSTOM=$MYDROP}\n" >> log_iptables_qos.txt
+        echo $v
         sleep $WAIT
     done
 else
