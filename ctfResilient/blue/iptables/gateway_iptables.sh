@@ -19,6 +19,9 @@ sudo iptables -A OUTPUT -o lo -j ACCEPT
 sudo iptables -A OUTPUT -d 10.1.5.2 -j ACCEPT 
 sudo iptables -A INPUT -s 10.1.5.2 -j ACCEPT
 
+# Limit RST packets
+sudo iptables -A FORWARD -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 -s 10.1.2.2,10.1.3.2,10.1.4.2 --dport 80 --tcp-flags RST RST -m limit --limit 2/second --limit-burst 2 -j ACCEPT
+
 # Hashlimit to drop TCP traffic from source IP after it sends 5 packets per second
 # Logs are in /var/log/kern.conf
 sudo iptables --new-chain TCP-LIMIT
