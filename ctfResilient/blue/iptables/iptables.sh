@@ -109,3 +109,16 @@ sudo iptables -A FORWARD -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 --dpor
 
 
 #iptables-save -c
+
+# Live block incoming RST
+# sudo iptables -A FORWARD 1 -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 -s 10.1.2.2,10.1.3.2,10.1.4.2 --dport 80 --tcp-flags ALL RST -j DROP
+
+# Check open sockets
+# ss -ta
+# ss -ita
+# ss -K dst IP dst dport = port # only established
+# netstat -altupn
+# ss -n state syn-recv sport = :80 | wc -l # check syn_recv sockets
+# check for half-opne connections
+# ss -n state time-wait | wc -l
+# ss -n state established | wc -l

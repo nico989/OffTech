@@ -30,6 +30,10 @@ sudo iptables -A OUTPUT -p tcp -d 10.1.2.2,10.1.3.2,10.1.4.2 --sport 80 -m connt
 sudo iptables -A TCP-LIMIT --match hashlimit --hashlimit-mode srcip --hashlimit-upto 5/sec --hashlimit-burst 20 --hashlimit-name tcp_rate_limit -j ACCEPT
 sudo iptables -A TCP-LIMIT  -m limit --limit 3/min -j LOG --log-prefix "DROPPED TCP IP-Tables connections: "
 sudo iptables -A TCP-LIMIT -j DROP
+
+# Allow traffic from/to router
+sudo iptables -A INPUT -s 10.1.1.2 -j ACCEPT
+sudo iptables -A OUTPUT -d 10.1.1.2 -j ACCEPT
  
 # Drop policy default
 sudo iptables -P INPUT DROP
