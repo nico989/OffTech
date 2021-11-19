@@ -54,6 +54,10 @@ sudo iptables -A FORWARD -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 --dpor
 # sudo iptables -I FORWARD 1 -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 -s 10.1.2.2,10.1.3.2,10.1.4.2 --dport 80 -m connlimit --connlimit-above 10 --connlimit-mask 32 -j DROP
 # sudo iptables -I FORWARD 1 -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 -s 10.1.2.2,10.1.3.2,10.1.4.2 --dport 80 -m connlimit --connlimit-upto 10 --connlimit-mask 32 -j ACCEPT
 
+# Live limit connection opened per second considering source ip
+# iptables -I INPUT -p tcp --dport 80 -m state --state NEW -m recent --set
+# iptables -I INPUT -p tcp --dport 80 -m state --state NEW -m recent --update --seconds 30 --hitcount 10 -j DROP
+
 # Live drop connection by time 
 # sudo iptables -I FORWARD 1 -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 -s 10.1.2.2,10.1.3.2,10.1.4.2 --dport 80 -m time --timestart HH:MM --timestop HH:MM -j DROP
 # sudo iptables -I FORWARD 1 -i $ROUTER_ETH -o $SERVER_ETH -p tcp -d 10.1.5.2 -s 10.1.2.2,10.1.3.2,10.1.4.2 --dport 80 -m time --datestart YYYY-MM-DDThh:mm:ss --datestop YYYY-MM-DDThh:mm:ss -j DROP

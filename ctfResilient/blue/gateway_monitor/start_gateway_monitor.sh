@@ -12,7 +12,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 # get used interface
-ETH=$(ip addr | grep 10.1.5.2 | cut -d " " -f 11)
+ETH=$(ip addr | grep 10.1.1.3 | cut -d " " -f 11)
 
 # start monitoring
-python3 monitor_server.py -i $ETH --show-raw
+python3 gateway_monitor.py -i $ETH --show-raw
