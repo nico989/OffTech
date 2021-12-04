@@ -1,0 +1,9 @@
+# Installation
+pick most secure mysql version
+pick most secure apache version
+
+# PHP
+fix code (prepared statement, path traversal)
+
+# Gateway
+iptables to limit and drop strange request
