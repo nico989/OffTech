@@ -1,0 +1,8 @@
+3 phase:
+prepare and recoinnassance
+attack and compromise
+command and control
+
+soc goals only alert not prevent. Use IDS.
+Use wireshark or more sophisticated squert(alert log) and kibana (event log).
+
