@@ -1,0 +1,1248 @@
+[2021-12-10 15:49:25] All good for negative amounts
+[2021-12-10 15:49:25] All good for not allowed transactions
+[2021-12-10 15:49:36] All good for negative amounts
+[2021-12-10 15:49:36] All good for not allowed transactions
+[2021-12-10 15:49:46] All good for negative amounts
+[2021-12-10 15:49:46] All good for not allowed transactions
+[2021-12-10 15:49:56] All good for negative amounts
+[2021-12-10 15:49:56] All good for not allowed transactions
+[2021-12-10 15:50:06] All good for negative amounts
+[2021-12-10 15:50:06] All good for not allowed transactions
+[2021-12-10 15:50:16] All good for negative amounts
+[2021-12-10 15:50:16] All good for not allowed transactions
+[2021-12-10 15:50:27] All good for negative amounts
+[2021-12-10 15:50:27] All good for not allowed transactions
+[2021-12-10 15:50:37] All good for negative amounts
+[2021-12-10 15:50:37] All good for not allowed transactions
+[2021-12-10 15:50:47] All good for negative amounts
+[2021-12-10 15:50:47] All good for not allowed transactions
+[2021-12-10 15:50:57] All good for negative amounts
+[2021-12-10 15:50:57] All good for not allowed transactions
+[2021-12-10 15:51:08] All good for negative amounts
+[2021-12-10 15:51:08] All good for not allowed transactions
+[2021-12-10 15:51:18] All good for negative amounts
+[2021-12-10 15:51:18] All good for not allowed transactions
+[2021-12-10 15:51:28] All good for negative amounts
+[2021-12-10 15:51:28] All good for not allowed transactions
+[2021-12-10 15:51:38] All good for negative amounts
+[2021-12-10 15:51:38] All good for not allowed transactions
+[2021-12-10 15:51:48] All good for negative amounts
+[2021-12-10 15:51:48] All good for not allowed transactions
+[2021-12-10 15:51:59] All good for negative amounts
+[2021-12-10 15:51:59] All good for not allowed transactions
+[2021-12-10 15:52:09] All good for negative amounts
+[2021-12-10 15:52:09] All good for not allowed transactions
+[2021-12-10 15:52:19] All good for negative amounts
+[2021-12-10 15:52:19] All good for not allowed transactions
+[2021-12-10 15:52:29] All good for negative amounts
+[2021-12-10 15:52:29] All good for not allowed transactions
+[2021-12-10 15:52:40] All good for negative amounts
+[2021-12-10 15:52:40] All good for not allowed transactions
+[2021-12-10 15:52:50] All good for negative amounts
+[2021-12-10 15:52:50] All good for not allowed transactions
+[2021-12-10 15:53:00] All good for negative amounts
+[2021-12-10 15:53:00] All good for not allowed transactions
+[2021-12-10 15:53:10] All good for negative amounts
+[2021-12-10 15:53:10] All good for not allowed transactions
+[2021-12-10 15:53:20] All good for negative amounts
+[2021-12-10 15:53:20] All good for not allowed transactions
+[2021-12-10 15:53:31] All good for negative amounts
+[2021-12-10 15:53:31] All good for not allowed transactions
+[2021-12-10 15:53:41] All good for negative amounts
+[2021-12-10 15:53:41] All good for not allowed transactions
+[2021-12-10 15:53:51] All good for negative amounts
+[2021-12-10 15:53:51] All good for not allowed transactions
+[2021-12-10 15:54:01] All good for negative amounts
+[2021-12-10 15:54:01] All good for not allowed transactions
+[2021-12-10 15:54:12] All good for negative amounts
+[2021-12-10 15:54:12] All good for not allowed transactions
+[2021-12-10 15:54:22] All good for negative amounts
+[2021-12-10 15:54:22] All good for not allowed transactions
+[2021-12-10 15:54:32] All good for negative amounts
+[2021-12-10 15:54:32] All good for not allowed transactions
+[2021-12-10 15:54:42] All good for negative amounts
+[2021-12-10 15:54:42] All good for not allowed transactions
+[2021-12-10 15:54:52] All good for negative amounts
+[2021-12-10 15:54:52] All good for not allowed transactions
+[2021-12-10 15:55:03] All good for negative amounts
+[2021-12-10 15:55:03] All good for not allowed transactions
+[2021-12-10 15:55:13] All good for negative amounts
+[2021-12-10 15:55:13] All good for not allowed transactions
+[2021-12-10 15:55:23] All good for negative amounts
+[2021-12-10 15:55:23] All good for not allowed transactions
+[2021-12-10 15:55:33] All good for negative amounts
+[2021-12-10 15:55:33] All good for not allowed transactions
+[2021-12-10 15:55:44] All good for negative amounts
+[2021-12-10 15:55:44] All good for not allowed transactions
+[2021-12-10 15:55:54] All good for negative amounts
+[2021-12-10 15:55:54] All good for not allowed transactions
+[2021-12-10 15:56:04] All good for negative amounts
+[2021-12-10 15:56:04] All good for not allowed transactions
+[2021-12-10 15:56:14] All good for negative amounts
+[2021-12-10 15:56:14] All good for not allowed transactions
+[2021-12-10 15:56:24] All good for negative amounts
+[2021-12-10 15:56:24] All good for not allowed transactions
+[2021-12-10 15:56:35] All good for negative amounts
+[2021-12-10 15:56:35] All good for not allowed transactions
+[2021-12-10 15:56:45] All good for negative amounts
+[2021-12-10 15:56:45] All good for not allowed transactions
+[2021-12-10 15:56:55] All good for negative amounts
+[2021-12-10 15:56:55] All good for not allowed transactions
+[2021-12-10 15:57:05] All good for negative amounts
+[2021-12-10 15:57:05] All good for not allowed transactions
+[2021-12-10 15:57:16] All good for negative amounts
+[2021-12-10 15:57:16] All good for not allowed transactions
+[2021-12-10 15:57:26] All good for negative amounts
+[2021-12-10 15:57:26] All good for not allowed transactions
+[2021-12-10 15:57:36] All good for negative amounts
+[2021-12-10 15:57:36] All good for not allowed transactions
+[2021-12-10 15:57:46] All good for negative amounts
+[2021-12-10 15:57:46] All good for not allowed transactions
+[2021-12-10 15:57:56] All good for negative amounts
+[2021-12-10 15:57:56] All good for not allowed transactions
+[2021-12-10 15:58:07] All good for negative amounts
+[2021-12-10 15:58:07] All good for not allowed transactions
+[2021-12-10 15:58:17] All good for negative amounts
+[2021-12-10 15:58:17] All good for not allowed transactions
+[2021-12-10 15:58:27] All good for negative amounts
+[2021-12-10 15:58:27] All good for not allowed transactions
+[2021-12-10 15:58:37] All good for negative amounts
+[2021-12-10 15:58:37] All good for not allowed transactions
+[2021-12-10 15:58:48] All good for negative amounts
+[2021-12-10 15:58:48] All good for not allowed transactions
+[2021-12-10 15:58:58] All good for negative amounts
+[2021-12-10 15:58:58] All good for not allowed transactions
+[2021-12-10 15:59:08] All good for negative amounts
+[2021-12-10 15:59:08] All good for not allowed transactions
+[2021-12-10 15:59:18] All good for negative amounts
+[2021-12-10 15:59:18] All good for not allowed transactions
+[2021-12-10 15:59:28] All good for negative amounts
+[2021-12-10 15:59:28] All good for not allowed transactions
+[2021-12-10 15:59:39] All good for negative amounts
+[2021-12-10 15:59:39] All good for not allowed transactions
+[2021-12-10 15:59:49] All good for negative amounts
+[2021-12-10 15:59:49] All good for not allowed transactions
+[2021-12-10 15:59:59] All good for negative amounts
+[2021-12-10 15:59:59] All good for not allowed transactions
+[2021-12-10 16:00:10] All good for negative amounts
+[2021-12-10 16:00:10] All good for not allowed transactions
+[2021-12-10 16:00:20] All good for negative amounts
+[2021-12-10 16:00:20] All good for not allowed transactions
+[2021-12-10 16:00:30] All good for negative amounts
+[2021-12-10 16:00:30] All good for not allowed transactions
+[2021-12-10 16:00:40] All good for negative amounts
+[2021-12-10 16:00:40] All good for not allowed transactions
+[2021-12-10 16:00:50] All good for negative amounts
+[2021-12-10 16:00:51] All good for not allowed transactions
+[2021-12-10 16:01:01] All good for negative amounts
+[2021-12-10 16:01:01] All good for not allowed transactions
+[2021-12-10 16:01:11] All good for negative amounts
+[2021-12-10 16:01:11] All good for not allowed transactions
+[2021-12-10 16:01:21] All good for negative amounts
+[2021-12-10 16:01:21] All good for not allowed transactions
+[2021-12-10 16:01:31] All good for negative amounts
+[2021-12-10 16:01:31] All good for not allowed transactions
+[2021-12-10 16:01:42] All good for negative amounts
+[2021-12-10 16:01:42] All good for not allowed transactions
+[2021-12-10 16:01:52] All good for negative amounts
+[2021-12-10 16:01:52] All good for not allowed transactions
+[2021-12-10 16:02:02] All good for negative amounts
+[2021-12-10 16:02:02] All good for not allowed transactions
+[2021-12-10 16:02:12] All good for negative amounts
+[2021-12-10 16:02:12] All good for not allowed transactions
+[2021-12-10 16:02:23] All good for negative amounts
+[2021-12-10 16:02:23] All good for not allowed transactions
+[2021-12-10 16:02:33] All good for negative amounts
+[2021-12-10 16:02:33] All good for not allowed transactions
+[2021-12-10 16:02:43] All good for negative amounts
+[2021-12-10 16:02:43] All good for not allowed transactions
+[2021-12-10 16:02:53] All good for negative amounts
+[2021-12-10 16:02:53] All good for not allowed transactions
+[2021-12-10 16:03:03] All good for negative amounts
+[2021-12-10 16:03:03] All good for not allowed transactions
+[2021-12-10 16:03:14] All good for negative amounts
+[2021-12-10 16:03:14] All good for not allowed transactions
+[2021-12-10 16:03:24] All good for negative amounts
+[2021-12-10 16:03:24] All good for not allowed transactions
+[2021-12-10 16:03:34] All good for negative amounts
+[2021-12-10 16:03:34] All good for not allowed transactions
+[2021-12-10 16:03:44] All good for negative amounts
+[2021-12-10 16:03:44] All good for not allowed transactions
+[2021-12-10 16:03:55] All good for negative amounts
+[2021-12-10 16:03:55] All good for not allowed transactions
+[2021-12-10 16:04:05] All good for negative amounts
+[2021-12-10 16:04:05] All good for not allowed transactions
+[2021-12-10 16:04:15] All good for negative amounts
+[2021-12-10 16:04:15] All good for not allowed transactions
+[2021-12-10 16:04:25] All good for negative amounts
+[2021-12-10 16:04:25] All good for not allowed transactions
+[2021-12-10 16:04:35] All good for negative amounts
+[2021-12-10 16:04:35] All good for not allowed transactions
+[2021-12-10 16:04:46] All good for negative amounts
+[2021-12-10 16:04:46] All good for not allowed transactions
+[2021-12-10 16:04:56] All good for negative amounts
+[2021-12-10 16:04:56] All good for not allowed transactions
+[2021-12-10 16:05:06] All good for negative amounts
+[2021-12-10 16:05:06] All good for not allowed transactions
+[2021-12-10 16:05:16] All good for negative amounts
+[2021-12-10 16:05:16] All good for not allowed transactions
+[2021-12-10 16:05:27] All good for negative amounts
+[2021-12-10 16:05:27] All good for not allowed transactions
+[2021-12-10 16:05:37] All good for negative amounts
+[2021-12-10 16:05:37] All good for not allowed transactions
+[2021-12-10 16:05:47] All good for negative amounts
+[2021-12-10 16:05:47] All good for not allowed transactions
+[2021-12-10 16:05:57] All good for negative amounts
+[2021-12-10 16:05:57] All good for not allowed transactions
+[2021-12-10 16:06:07] All good for negative amounts
+[2021-12-10 16:06:07] All good for not allowed transactions
+[2021-12-10 16:06:18] All good for negative amounts
+[2021-12-10 16:06:18] All good for not allowed transactions
+[2021-12-10 16:06:28] All good for negative amounts
+[2021-12-10 16:06:28] All good for not allowed transactions
+[2021-12-10 16:06:38] All good for negative amounts
+[2021-12-10 16:06:38] All good for not allowed transactions
+[2021-12-10 16:06:48] All good for negative amounts
+[2021-12-10 16:06:48] All good for not allowed transactions
+[2021-12-10 16:06:59] All good for negative amounts
+[2021-12-10 16:06:59] All good for not allowed transactions
+[2021-12-10 16:07:09] All good for negative amounts
+[2021-12-10 16:07:09] All good for not allowed transactions
+[2021-12-10 16:07:19] All good for negative amounts
+[2021-12-10 16:07:19] All good for not allowed transactions
+[2021-12-10 16:07:29] All good for negative amounts
+[2021-12-10 16:07:29] All good for not allowed transactions
+[2021-12-10 16:07:39] All good for negative amounts
+[2021-12-10 16:07:39] All good for not allowed transactions
+[2021-12-10 16:07:50] All good for negative amounts
+[2021-12-10 16:07:50] All good for not allowed transactions
+[2021-12-10 16:08:00] All good for negative amounts
+[2021-12-10 16:08:00] All good for not allowed transactions
+[2021-12-10 16:08:10] All good for negative amounts
+[2021-12-10 16:08:10] All good for not allowed transactions
+[2021-12-10 16:08:20] All good for negative amounts
+[2021-12-10 16:08:20] All good for not allowed transactions
+[2021-12-10 16:08:31] All good for negative amounts
+[2021-12-10 16:08:31] All good for not allowed transactions
+[2021-12-10 16:08:41] All good for negative amounts
+[2021-12-10 16:08:41] All good for not allowed transactions
+[2021-12-10 16:08:51] All good for negative amounts
+[2021-12-10 16:08:51] All good for not allowed transactions
+[2021-12-10 16:09:01] All good for negative amounts
+[2021-12-10 16:09:01] All good for not allowed transactions
+[2021-12-10 16:09:11] All good for negative amounts
+[2021-12-10 16:09:11] All good for not allowed transactions
+[2021-12-10 16:09:22] All good for negative amounts
+[2021-12-10 16:09:22] All good for not allowed transactions
+[2021-12-10 16:09:32] All good for negative amounts
+[2021-12-10 16:09:32] All good for not allowed transactions
+[2021-12-10 16:09:42] All good for negative amounts
+[2021-12-10 16:09:42] All good for not allowed transactions
+[2021-12-10 16:09:52] All good for negative amounts
+[2021-12-10 16:09:52] All good for not allowed transactions
+[2021-12-10 16:10:03] All good for negative amounts
+[2021-12-10 16:10:03] All good for not allowed transactions
+[2021-12-10 16:10:13] All good for negative amounts
+[2021-12-10 16:10:13] All good for not allowed transactions
+[2021-12-10 16:10:23] All good for negative amounts
+[2021-12-10 16:10:23] All good for not allowed transactions
+[2021-12-10 16:10:33] All good for negative amounts
+[2021-12-10 16:10:33] All good for not allowed transactions
+[2021-12-10 16:10:43] All good for negative amounts
+[2021-12-10 16:10:43] All good for not allowed transactions
+[2021-12-10 16:10:54] All good for negative amounts
+[2021-12-10 16:10:54] All good for not allowed transactions
+[2021-12-10 16:11:04] All good for negative amounts
+[2021-12-10 16:11:04] All good for not allowed transactions
+[2021-12-10 16:11:14] All good for negative amounts
+[2021-12-10 16:11:14] All good for not allowed transactions
+[2021-12-10 16:11:24] All good for negative amounts
+[2021-12-10 16:11:24] All good for not allowed transactions
+[2021-12-10 16:11:35] All good for negative amounts
+[2021-12-10 16:11:35] All good for not allowed transactions
+[2021-12-10 16:11:45] All good for negative amounts
+[2021-12-10 16:11:45] All good for not allowed transactions
+[2021-12-10 16:11:55] All good for negative amounts
+[2021-12-10 16:11:55] All good for not allowed transactions
+[2021-12-10 16:12:05] All good for negative amounts
+[2021-12-10 16:12:05] All good for not allowed transactions
+[2021-12-10 16:12:15] All good for negative amounts
+[2021-12-10 16:12:15] All good for not allowed transactions
+[2021-12-10 16:12:26] All good for negative amounts
+[2021-12-10 16:12:26] All good for not allowed transactions
+[2021-12-10 16:12:36] All good for negative amounts
+[2021-12-10 16:12:36] All good for not allowed transactions
+[2021-12-10 16:12:46] All good for negative amounts
+[2021-12-10 16:12:46] All good for not allowed transactions
+[2021-12-10 16:12:56] All good for negative amounts
+[2021-12-10 16:12:56] All good for not allowed transactions
+[2021-12-10 16:13:07] All good for negative amounts
+[2021-12-10 16:13:07] All good for not allowed transactions
+[2021-12-10 16:13:17] All good for negative amounts
+[2021-12-10 16:13:17] All good for not allowed transactions
+[2021-12-10 16:13:27] All good for negative amounts
+[2021-12-10 16:13:27] All good for not allowed transactions
+[2021-12-10 16:13:37] All good for negative amounts
+[2021-12-10 16:13:37] All good for not allowed transactions
+[2021-12-10 16:13:47] All good for negative amounts
+[2021-12-10 16:13:47] All good for not allowed transactions
+[2021-12-10 16:13:58] All good for negative amounts
+[2021-12-10 16:13:58] All good for not allowed transactions
+[2021-12-10 16:14:08] All good for negative amounts
+[2021-12-10 16:14:08] All good for not allowed transactions
+[2021-12-10 16:14:18] All good for negative amounts
+[2021-12-10 16:14:18] All good for not allowed transactions
+[2021-12-10 16:14:28] All good for negative amounts
+[2021-12-10 16:14:28] All good for not allowed transactions
+[2021-12-10 16:14:39] All good for negative amounts
+[2021-12-10 16:14:39] All good for not allowed transactions
+[2021-12-10 16:14:49] All good for negative amounts
+[2021-12-10 16:14:49] All good for not allowed transactions
+[2021-12-10 16:14:59] All good for negative amounts
+[2021-12-10 16:14:59] All good for not allowed transactions
+[2021-12-10 16:15:09] All good for negative amounts
+[2021-12-10 16:15:09] All good for not allowed transactions
+[2021-12-10 16:15:19] All good for negative amounts
+[2021-12-10 16:15:19] All good for not allowed transactions
+[2021-12-10 16:15:30] All good for negative amounts
+[2021-12-10 16:15:30] All good for not allowed transactions
+[2021-12-10 16:15:40] All good for negative amounts
+[2021-12-10 16:15:40] All good for not allowed transactions
+[2021-12-10 16:15:50] All good for negative amounts
+[2021-12-10 16:15:50] All good for not allowed transactions
+[2021-12-10 16:16:00] All good for negative amounts
+[2021-12-10 16:16:00] All good for not allowed transactions
+[2021-12-10 16:16:11] All good for negative amounts
+[2021-12-10 16:16:11] All good for not allowed transactions
+[2021-12-10 16:16:21] All good for negative amounts
+[2021-12-10 16:16:21] All good for not allowed transactions
+[2021-12-10 16:16:31] All good for negative amounts
+[2021-12-10 16:16:31] All good for not allowed transactions
+[2021-12-10 16:16:41] All good for negative amounts
+[2021-12-10 16:16:41] All good for not allowed transactions
+[2021-12-10 16:16:51] All good for negative amounts
+[2021-12-10 16:16:51] All good for not allowed transactions
+[2021-12-10 16:17:02] All good for negative amounts
+[2021-12-10 16:17:02] All good for not allowed transactions
+[2021-12-10 16:17:12] All good for negative amounts
+[2021-12-10 16:17:12] All good for not allowed transactions
+[2021-12-10 16:17:22] All good for negative amounts
+[2021-12-10 16:17:22] All good for not allowed transactions
+[2021-12-10 16:17:32] All good for negative amounts
+[2021-12-10 16:17:32] All good for not allowed transactions
+[2021-12-10 16:17:43] All good for negative amounts
+[2021-12-10 16:17:43] All good for not allowed transactions
+[2021-12-10 16:17:53] All good for negative amounts
+[2021-12-10 16:17:53] All good for not allowed transactions
+[2021-12-10 16:18:03] All good for negative amounts
+[2021-12-10 16:18:03] All good for not allowed transactions
+[2021-12-10 16:18:13] All good for negative amounts
+[2021-12-10 16:18:13] All good for not allowed transactions
+[2021-12-10 16:18:24] All good for negative amounts
+[2021-12-10 16:18:24] All good for not allowed transactions
+[2021-12-10 16:18:34] All good for negative amounts
+[2021-12-10 16:18:34] All good for not allowed transactions
+[2021-12-10 16:18:44] All good for negative amounts
+[2021-12-10 16:18:44] All good for not allowed transactions
+[2021-12-10 16:18:54] All good for negative amounts
+[2021-12-10 16:18:54] All good for not allowed transactions
+[2021-12-10 16:19:04] All good for negative amounts
+[2021-12-10 16:19:04] All good for not allowed transactions
+[2021-12-10 16:19:15] All good for negative amounts
+[2021-12-10 16:19:15] All good for not allowed transactions
+[2021-12-10 16:19:25] All good for negative amounts
+[2021-12-10 16:19:25] All good for not allowed transactions
+[2021-12-10 16:19:35] All good for negative amounts
+[2021-12-10 16:19:35] All good for not allowed transactions
+[2021-12-10 16:19:45] All good for negative amounts
+[2021-12-10 16:19:45] All good for not allowed transactions
+[2021-12-10 16:19:56] All good for negative amounts
+[2021-12-10 16:19:56] All good for not allowed transactions
+[2021-12-10 16:20:06] All good for negative amounts
+[2021-12-10 16:20:06] All good for not allowed transactions
+[2021-12-10 16:20:16] All good for negative amounts
+[2021-12-10 16:20:16] All good for not allowed transactions
+[2021-12-10 16:20:26] All good for negative amounts
+[2021-12-10 16:20:26] All good for not allowed transactions
+[2021-12-10 16:20:36] All good for negative amounts
+[2021-12-10 16:20:36] All good for not allowed transactions
+[2021-12-10 16:20:47] All good for negative amounts
+[2021-12-10 16:20:47] All good for not allowed transactions
+[2021-12-10 16:20:57] All good for negative amounts
+[2021-12-10 16:20:57] All good for not allowed transactions
+[2021-12-10 16:21:07] All good for negative amounts
+[2021-12-10 16:21:07] All good for not allowed transactions
+[2021-12-10 16:21:17] All good for negative amounts
+[2021-12-10 16:21:17] All good for not allowed transactions
+[2021-12-10 16:21:28] All good for negative amounts
+[2021-12-10 16:21:28] All good for not allowed transactions
+[2021-12-10 16:21:38] All good for negative amounts
+[2021-12-10 16:21:38] All good for not allowed transactions
+[2021-12-10 16:21:48] All good for negative amounts
+[2021-12-10 16:21:48] All good for not allowed transactions
+[2021-12-10 16:21:58] All good for negative amounts
+[2021-12-10 16:21:58] All good for not allowed transactions
+[2021-12-10 16:22:08] All good for negative amounts
+[2021-12-10 16:22:08] All good for not allowed transactions
+[2021-12-10 16:22:19] All good for negative amounts
+[2021-12-10 16:22:19] All good for not allowed transactions
+[2021-12-10 16:22:29] All good for negative amounts
+[2021-12-10 16:22:29] All good for not allowed transactions
+[2021-12-10 16:22:39] All good for negative amounts
+[2021-12-10 16:22:39] All good for not allowed transactions
+[2021-12-10 16:22:49] All good for negative amounts
+[2021-12-10 16:22:49] All good for not allowed transactions
+[2021-12-10 16:23:00] All good for negative amounts
+[2021-12-10 16:23:00] All good for not allowed transactions
+[2021-12-10 16:23:10] All good for negative amounts
+[2021-12-10 16:23:10] All good for not allowed transactions
+[2021-12-10 16:23:20] All good for negative amounts
+[2021-12-10 16:23:20] All good for not allowed transactions
+[2021-12-10 16:23:30] All good for negative amounts
+[2021-12-10 16:23:30] All good for not allowed transactions
+[2021-12-10 16:23:40] All good for negative amounts
+[2021-12-10 16:23:41] All good for not allowed transactions
+[2021-12-10 16:23:51] All good for negative amounts
+[2021-12-10 16:23:51] All good for not allowed transactions
+[2021-12-10 16:24:01] All good for negative amounts
+[2021-12-10 16:24:01] All good for not allowed transactions
+[2021-12-10 16:24:11] All good for negative amounts
+[2021-12-10 16:24:11] All good for not allowed transactions
+[2021-12-10 16:24:21] All good for negative amounts
+[2021-12-10 16:24:21] All good for not allowed transactions
+[2021-12-10 16:24:32] All good for negative amounts
+[2021-12-10 16:24:32] All good for not allowed transactions
+[2021-12-10 16:24:42] All good for negative amounts
+[2021-12-10 16:24:42] All good for not allowed transactions
+[2021-12-10 16:24:52] All good for negative amounts
+[2021-12-10 16:24:52] All good for not allowed transactions
+[2021-12-10 16:25:02] All good for negative amounts
+[2021-12-10 16:25:02] All good for not allowed transactions
+[2021-12-10 16:25:13] All good for negative amounts
+[2021-12-10 16:25:13] All good for not allowed transactions
+[2021-12-10 16:25:23] All good for negative amounts
+[2021-12-10 16:25:23] All good for not allowed transactions
+[2021-12-10 16:25:33] All good for negative amounts
+[2021-12-10 16:25:33] All good for not allowed transactions
+[2021-12-10 16:25:43] All good for negative amounts
+[2021-12-10 16:25:43] All good for not allowed transactions
+[2021-12-10 16:25:53] All good for negative amounts
+[2021-12-10 16:25:53] All good for not allowed transactions
+[2021-12-10 16:26:04] All good for negative amounts
+[2021-12-10 16:26:04] All good for not allowed transactions
+[2021-12-10 16:26:14] All good for negative amounts
+[2021-12-10 16:26:14] All good for not allowed transactions
+[2021-12-10 16:26:24] All good for negative amounts
+[2021-12-10 16:26:24] All good for not allowed transactions
+[2021-12-10 16:26:34] All good for negative amounts
+[2021-12-10 16:26:34] All good for not allowed transactions
+[2021-12-10 16:26:45] All good for negative amounts
+[2021-12-10 16:26:45] All good for not allowed transactions
+[2021-12-10 16:26:55] All good for negative amounts
+[2021-12-10 16:26:55] All good for not allowed transactions
+[2021-12-10 16:27:05] All good for negative amounts
+[2021-12-10 16:27:05] All good for not allowed transactions
+[2021-12-10 16:27:15] All good for negative amounts
+[2021-12-10 16:27:15] All good for not allowed transactions
+[2021-12-10 16:27:25] All good for negative amounts
+[2021-12-10 16:27:25] All good for not allowed transactions
+[2021-12-10 16:27:36] All good for negative amounts
+[2021-12-10 16:27:36] All good for not allowed transactions
+[2021-12-10 16:27:46] All good for negative amounts
+[2021-12-10 16:27:46] All good for not allowed transactions
+[2021-12-10 16:27:56] All good for negative amounts
+[2021-12-10 16:27:56] All good for not allowed transactions
+[2021-12-10 16:28:06] All good for negative amounts
+[2021-12-10 16:28:06] All good for not allowed transactions
+[2021-12-10 16:28:17] All good for negative amounts
+[2021-12-10 16:28:17] All good for not allowed transactions
+[2021-12-10 16:28:27] All good for negative amounts
+[2021-12-10 16:28:27] All good for not allowed transactions
+[2021-12-10 16:28:37] All good for negative amounts
+[2021-12-10 16:28:37] All good for not allowed transactions
+[2021-12-10 16:28:47] All good for negative amounts
+[2021-12-10 16:28:47] All good for not allowed transactions
+[2021-12-10 16:28:57] All good for negative amounts
+[2021-12-10 16:28:57] All good for not allowed transactions
+[2021-12-10 16:29:08] All good for negative amounts
+[2021-12-10 16:29:08] All good for not allowed transactions
+[2021-12-10 16:29:18] All good for negative amounts
+[2021-12-10 16:29:18] All good for not allowed transactions
+[2021-12-10 16:29:28] All good for negative amounts
+[2021-12-10 16:29:28] All good for not allowed transactions
+[2021-12-10 16:29:38] All good for negative amounts
+[2021-12-10 16:29:38] All good for not allowed transactions
+[2021-12-10 16:29:49] All good for negative amounts
+[2021-12-10 16:29:49] All good for not allowed transactions
+[2021-12-10 16:29:59] All good for negative amounts
+[2021-12-10 16:29:59] All good for not allowed transactions
+[2021-12-10 16:30:09] All good for negative amounts
+[2021-12-10 16:30:09] All good for not allowed transactions
+[2021-12-10 16:30:19] All good for negative amounts
+[2021-12-10 16:30:19] All good for not allowed transactions
+[2021-12-10 16:30:29] All good for negative amounts
+[2021-12-10 16:30:29] All good for not allowed transactions
+[2021-12-10 16:30:40] All good for negative amounts
+[2021-12-10 16:30:40] All good for not allowed transactions
+[2021-12-10 16:30:50] All good for negative amounts
+[2021-12-10 16:30:50] All good for not allowed transactions
+[2021-12-10 16:31:00] All good for negative amounts
+[2021-12-10 16:31:00] All good for not allowed transactions
+[2021-12-10 16:31:10] All good for negative amounts
+[2021-12-10 16:31:10] All good for not allowed transactions
+[2021-12-10 16:31:21] All good for negative amounts
+[2021-12-10 16:31:21] All good for not allowed transactions
+[2021-12-10 16:31:31] All good for negative amounts
+[2021-12-10 16:31:31] All good for not allowed transactions
+[2021-12-10 16:31:41] All good for negative amounts
+[2021-12-10 16:31:41] All good for not allowed transactions
+[2021-12-10 16:31:51] All good for negative amounts
+[2021-12-10 16:31:51] All good for not allowed transactions
+[2021-12-10 16:32:02] All good for negative amounts
+[2021-12-10 16:32:02] All good for not allowed transactions
+[2021-12-10 16:32:12] All good for negative amounts
+[2021-12-10 16:32:12] All good for not allowed transactions
+[2021-12-10 16:32:22] All good for negative amounts
+[2021-12-10 16:32:22] All good for not allowed transactions
+[2021-12-10 16:32:32] All good for negative amounts
+[2021-12-10 16:32:32] All good for not allowed transactions
+[2021-12-10 16:32:42] All good for negative amounts
+[2021-12-10 16:32:42] All good for not allowed transactions
+[2021-12-10 16:32:53] All good for negative amounts
+[2021-12-10 16:32:53] All good for not allowed transactions
+[2021-12-10 16:33:03] All good for negative amounts
+[2021-12-10 16:33:03] All good for not allowed transactions
+[2021-12-10 16:33:13] All good for negative amounts
+[2021-12-10 16:33:13] All good for not allowed transactions
+[2021-12-10 16:33:23] All good for negative amounts
+[2021-12-10 16:33:23] All good for not allowed transactions
+[2021-12-10 16:33:34] All good for negative amounts
+[2021-12-10 16:33:34] All good for not allowed transactions
+[2021-12-10 16:33:44] All good for negative amounts
+[2021-12-10 16:33:44] All good for not allowed transactions
+[2021-12-10 16:33:54] All good for negative amounts
+[2021-12-10 16:33:54] All good for not allowed transactions
+[2021-12-10 16:34:04] All good for negative amounts
+[2021-12-10 16:34:04] All good for not allowed transactions
+[2021-12-10 16:34:14] All good for negative amounts
+[2021-12-10 16:34:14] All good for not allowed transactions
+[2021-12-10 16:34:25] All good for negative amounts
+[2021-12-10 16:34:25] All good for not allowed transactions
+[2021-12-10 16:34:35] All good for negative amounts
+[2021-12-10 16:34:35] All good for not allowed transactions
+[2021-12-10 16:34:45] All good for negative amounts
+[2021-12-10 16:34:45] All good for not allowed transactions
+[2021-12-10 16:34:55] All good for negative amounts
+[2021-12-10 16:34:55] All good for not allowed transactions
+[2021-12-10 16:35:06] All good for negative amounts
+[2021-12-10 16:35:06] All good for not allowed transactions
+[2021-12-10 16:35:16] All good for negative amounts
+[2021-12-10 16:35:16] All good for not allowed transactions
+[2021-12-10 16:35:26] All good for negative amounts
+[2021-12-10 16:35:26] All good for not allowed transactions
+[2021-12-10 16:35:36] All good for negative amounts
+[2021-12-10 16:35:36] All good for not allowed transactions
+[2021-12-10 16:35:46] All good for negative amounts
+[2021-12-10 16:35:46] All good for not allowed transactions
+[2021-12-10 16:35:57] All good for negative amounts
+[2021-12-10 16:35:57] All good for not allowed transactions
+[2021-12-10 16:36:07] All good for negative amounts
+[2021-12-10 16:36:07] All good for not allowed transactions
+[2021-12-10 16:36:17] All good for negative amounts
+[2021-12-10 16:36:17] All good for not allowed transactions
+[2021-12-10 16:36:27] All good for negative amounts
+[2021-12-10 16:36:27] All good for not allowed transactions
+[2021-12-10 16:36:38] All good for negative amounts
+[2021-12-10 16:36:38] All good for not allowed transactions
+[2021-12-10 16:36:48] All good for negative amounts
+[2021-12-10 16:36:48] All good for not allowed transactions
+[2021-12-10 16:36:58] All good for negative amounts
+[2021-12-10 16:36:58] All good for not allowed transactions
+[2021-12-10 16:37:08] All good for negative amounts
+[2021-12-10 16:37:08] All good for not allowed transactions
+[2021-12-10 16:37:18] All good for negative amounts
+[2021-12-10 16:37:18] All good for not allowed transactions
+[2021-12-10 16:37:29] All good for negative amounts
+[2021-12-10 16:37:29] All good for not allowed transactions
+[2021-12-10 16:37:39] All good for negative amounts
+[2021-12-10 16:37:39] All good for not allowed transactions
+[2021-12-10 16:37:49] All good for negative amounts
+[2021-12-10 16:37:49] All good for not allowed transactions
+[2021-12-10 16:37:59] All good for negative amounts
+[2021-12-10 16:37:59] All good for not allowed transactions
+[2021-12-10 16:38:10] All good for negative amounts
+[2021-12-10 16:38:10] All good for not allowed transactions
+[2021-12-10 16:38:20] All good for negative amounts
+[2021-12-10 16:38:20] All good for not allowed transactions
+[2021-12-10 16:38:30] All good for negative amounts
+[2021-12-10 16:38:30] All good for not allowed transactions
+[2021-12-10 16:38:40] All good for negative amounts
+[2021-12-10 16:38:40] All good for not allowed transactions
+[2021-12-10 16:38:50] All good for negative amounts
+[2021-12-10 16:38:50] All good for not allowed transactions
+[2021-12-10 16:39:01] All good for negative amounts
+[2021-12-10 16:39:01] All good for not allowed transactions
+[2021-12-10 16:39:11] All good for negative amounts
+[2021-12-10 16:39:11] All good for not allowed transactions
+[2021-12-10 16:39:21] All good for negative amounts
+[2021-12-10 16:39:21] All good for not allowed transactions
+[2021-12-10 16:39:31] All good for negative amounts
+[2021-12-10 16:39:31] All good for not allowed transactions
+[2021-12-10 16:39:42] All good for negative amounts
+[2021-12-10 16:39:42] All good for not allowed transactions
+[2021-12-10 16:39:52] All good for negative amounts
+[2021-12-10 16:39:52] All good for not allowed transactions
+[2021-12-10 16:40:02] All good for negative amounts
+[2021-12-10 16:40:02] All good for not allowed transactions
+[2021-12-10 16:40:12] All good for negative amounts
+[2021-12-10 16:40:12] All good for not allowed transactions
+[2021-12-10 16:40:22] All good for negative amounts
+[2021-12-10 16:40:22] All good for not allowed transactions
+[2021-12-10 16:40:33] All good for negative amounts
+[2021-12-10 16:40:33] All good for not allowed transactions
+[2021-12-10 16:40:43] All good for negative amounts
+[2021-12-10 16:40:43] All good for not allowed transactions
+[2021-12-10 16:40:53] All good for negative amounts
+[2021-12-10 16:40:53] All good for not allowed transactions
+[2021-12-10 16:41:03] All good for negative amounts
+[2021-12-10 16:41:03] All good for not allowed transactions
+[2021-12-10 16:41:14] All good for negative amounts
+[2021-12-10 16:41:14] All good for not allowed transactions
+[2021-12-10 16:41:24] All good for negative amounts
+[2021-12-10 16:41:24] All good for not allowed transactions
+[2021-12-10 16:41:34] All good for negative amounts
+[2021-12-10 16:41:34] All good for not allowed transactions
+[2021-12-10 16:41:44] All good for negative amounts
+[2021-12-10 16:41:44] All good for not allowed transactions
+[2021-12-10 16:41:54] All good for negative amounts
+[2021-12-10 16:41:54] All good for not allowed transactions
+[2021-12-10 16:42:05] All good for negative amounts
+[2021-12-10 16:42:05] All good for not allowed transactions
+[2021-12-10 16:42:15] All good for negative amounts
+[2021-12-10 16:42:15] All good for not allowed transactions
+[2021-12-10 16:42:25] All good for negative amounts
+[2021-12-10 16:42:25] All good for not allowed transactions
+[2021-12-10 16:42:35] All good for negative amounts
+[2021-12-10 16:42:35] All good for not allowed transactions
+[2021-12-10 16:42:46] All good for negative amounts
+[2021-12-10 16:42:46] All good for not allowed transactions
+[2021-12-10 16:42:56] All good for negative amounts
+[2021-12-10 16:42:56] All good for not allowed transactions
+[2021-12-10 16:43:06] All good for negative amounts
+[2021-12-10 16:43:06] All good for not allowed transactions
+[2021-12-10 16:43:16] All good for negative amounts
+[2021-12-10 16:43:16] All good for not allowed transactions
+[2021-12-10 16:43:27] All good for negative amounts
+[2021-12-10 16:43:27] All good for not allowed transactions
+[2021-12-10 16:43:37] All good for negative amounts
+[2021-12-10 16:43:37] All good for not allowed transactions
+[2021-12-10 16:43:47] All good for negative amounts
+[2021-12-10 16:43:47] All good for not allowed transactions
+[2021-12-10 16:43:57] All good for negative amounts
+[2021-12-10 16:43:57] All good for not allowed transactions
+[2021-12-10 16:44:07] All good for negative amounts
+[2021-12-10 16:44:07] All good for not allowed transactions
+[2021-12-10 16:44:18] All good for negative amounts
+[2021-12-10 16:44:18] All good for not allowed transactions
+[2021-12-10 16:44:28] All good for negative amounts
+[2021-12-10 16:44:28] All good for not allowed transactions
+[2021-12-10 16:44:38] All good for negative amounts
+[2021-12-10 16:44:38] All good for not allowed transactions
+[2021-12-10 16:44:48] All good for negative amounts
+[2021-12-10 16:44:48] All good for not allowed transactions
+[2021-12-10 16:44:59] All good for negative amounts
+[2021-12-10 16:44:59] All good for not allowed transactions
+[2021-12-10 16:45:09] All good for negative amounts
+[2021-12-10 16:45:09] All good for not allowed transactions
+[2021-12-10 16:45:19] All good for negative amounts
+[2021-12-10 16:45:19] All good for not allowed transactions
+[2021-12-10 16:45:29] All good for negative amounts
+[2021-12-10 16:45:29] All good for not allowed transactions
+[2021-12-10 16:45:40] All good for negative amounts
+[2021-12-10 16:45:40] All good for not allowed transactions
+[2021-12-10 16:45:50] All good for negative amounts
+[2021-12-10 16:45:50] All good for not allowed transactions
+[2021-12-10 16:46:00] All good for negative amounts
+[2021-12-10 16:46:00] All good for not allowed transactions
+[2021-12-10 16:46:10] All good for negative amounts
+[2021-12-10 16:46:10] All good for not allowed transactions
+[2021-12-10 16:46:20] All good for negative amounts
+[2021-12-10 16:46:20] All good for not allowed transactions
+[2021-12-10 16:46:31] All good for negative amounts
+[2021-12-10 16:46:31] All good for not allowed transactions
+[2021-12-10 16:46:41] All good for negative amounts
+[2021-12-10 16:46:41] All good for not allowed transactions
+[2021-12-10 16:46:51] All good for negative amounts
+[2021-12-10 16:46:51] All good for not allowed transactions
+[2021-12-10 16:47:01] All good for negative amounts
+[2021-12-10 16:47:01] All good for not allowed transactions
+[2021-12-10 16:47:12] All good for negative amounts
+[2021-12-10 16:47:12] All good for not allowed transactions
+[2021-12-10 16:47:22] All good for negative amounts
+[2021-12-10 16:47:22] All good for not allowed transactions
+[2021-12-10 16:47:32] All good for negative amounts
+[2021-12-10 16:47:32] All good for not allowed transactions
+[2021-12-10 16:47:42] All good for negative amounts
+[2021-12-10 16:47:42] All good for not allowed transactions
+[2021-12-10 16:47:53] All good for negative amounts
+[2021-12-10 16:47:53] All good for not allowed transactions
+[2021-12-10 16:48:03] All good for negative amounts
+[2021-12-10 16:48:03] All good for not allowed transactions
+[2021-12-10 16:48:13] All good for negative amounts
+[2021-12-10 16:48:13] All good for not allowed transactions
+[2021-12-10 16:48:23] All good for negative amounts
+[2021-12-10 16:48:23] All good for not allowed transactions
+[2021-12-10 16:48:33] All good for negative amounts
+[2021-12-10 16:48:33] All good for not allowed transactions
+[2021-12-10 16:48:44] All good for negative amounts
+[2021-12-10 16:48:44] All good for not allowed transactions
+[2021-12-10 16:48:54] All good for negative amounts
+[2021-12-10 16:48:54] All good for not allowed transactions
+[2021-12-10 16:49:04] All good for negative amounts
+[2021-12-10 16:49:04] All good for not allowed transactions
+[2021-12-10 16:49:14] All good for negative amounts
+[2021-12-10 16:49:14] All good for not allowed transactions
+[2021-12-10 16:49:25] All good for negative amounts
+[2021-12-10 16:49:25] All good for not allowed transactions
+[2021-12-10 16:49:35] All good for negative amounts
+[2021-12-10 16:49:35] All good for not allowed transactions
+[2021-12-10 16:49:45] All good for negative amounts
+[2021-12-10 16:49:45] All good for not allowed transactions
+[2021-12-10 16:49:55] All good for negative amounts
+[2021-12-10 16:49:55] All good for not allowed transactions
+[2021-12-10 16:50:05] All good for negative amounts
+[2021-12-10 16:50:05] All good for not allowed transactions
+[2021-12-10 16:50:16] All good for negative amounts
+[2021-12-10 16:50:16] All good for not allowed transactions
+[2021-12-10 16:50:26] All good for negative amounts
+[2021-12-10 16:50:26] All good for not allowed transactions
+[2021-12-10 16:50:36] All good for negative amounts
+[2021-12-10 16:50:36] All good for not allowed transactions
+[2021-12-10 16:50:46] All good for negative amounts
+[2021-12-10 16:50:46] All good for not allowed transactions
+[2021-12-10 16:50:57] All good for negative amounts
+[2021-12-10 16:50:57] All good for not allowed transactions
+[2021-12-10 16:51:07] All good for negative amounts
+[2021-12-10 16:51:07] All good for not allowed transactions
+[2021-12-10 16:51:17] All good for negative amounts
+[2021-12-10 16:51:17] All good for not allowed transactions
+[2021-12-10 16:51:27] All good for negative amounts
+[2021-12-10 16:51:27] All good for not allowed transactions
+[2021-12-10 16:51:38] All good for negative amounts
+[2021-12-10 16:51:38] All good for not allowed transactions
+[2021-12-10 16:51:48] All good for negative amounts
+[2021-12-10 16:51:48] All good for not allowed transactions
+[2021-12-10 16:51:58] All good for negative amounts
+[2021-12-10 16:51:58] All good for not allowed transactions
+[2021-12-10 16:52:08] All good for negative amounts
+[2021-12-10 16:52:08] All good for not allowed transactions
+[2021-12-10 16:52:18] All good for negative amounts
+[2021-12-10 16:52:18] All good for not allowed transactions
+[2021-12-10 16:52:29] All good for negative amounts
+[2021-12-10 16:52:29] All good for not allowed transactions
+[2021-12-10 16:52:39] All good for negative amounts
+[2021-12-10 16:52:39] All good for not allowed transactions
+[2021-12-10 16:52:49] All good for negative amounts
+[2021-12-10 16:52:49] All good for not allowed transactions
+[2021-12-10 16:52:59] All good for negative amounts
+[2021-12-10 16:52:59] All good for not allowed transactions
+[2021-12-10 16:53:10] All good for negative amounts
+[2021-12-10 16:53:10] All good for not allowed transactions
+[2021-12-10 16:53:20] All good for negative amounts
+[2021-12-10 16:53:20] All good for not allowed transactions
+[2021-12-10 16:53:30] All good for negative amounts
+[2021-12-10 16:53:30] All good for not allowed transactions
+[2021-12-10 16:53:40] All good for negative amounts
+[2021-12-10 16:53:40] All good for not allowed transactions
+[2021-12-10 16:53:50] All good for negative amounts
+[2021-12-10 16:53:50] All good for not allowed transactions
+[2021-12-10 16:54:01] All good for negative amounts
+[2021-12-10 16:54:01] All good for not allowed transactions
+[2021-12-10 16:54:11] All good for negative amounts
+[2021-12-10 16:54:11] All good for not allowed transactions
+[2021-12-10 16:54:21] All good for negative amounts
+[2021-12-10 16:54:21] All good for not allowed transactions
+[2021-12-10 16:54:31] All good for negative amounts
+[2021-12-10 16:54:31] All good for not allowed transactions
+[2021-12-10 16:54:42] All good for negative amounts
+[2021-12-10 16:54:42] All good for not allowed transactions
+[2021-12-10 16:54:52] All good for negative amounts
+[2021-12-10 16:54:52] All good for not allowed transactions
+[2021-12-10 16:55:02] All good for negative amounts
+[2021-12-10 16:55:02] All good for not allowed transactions
+[2021-12-10 16:55:12] All good for negative amounts
+[2021-12-10 16:55:12] All good for not allowed transactions
+[2021-12-10 16:55:22] All good for negative amounts
+[2021-12-10 16:55:22] All good for not allowed transactions
+[2021-12-10 16:55:33] All good for negative amounts
+[2021-12-10 16:55:33] All good for not allowed transactions
+[2021-12-10 16:55:43] All good for negative amounts
+[2021-12-10 16:55:43] All good for not allowed transactions
+[2021-12-10 16:55:53] All good for negative amounts
+[2021-12-10 16:55:53] All good for not allowed transactions
+[2021-12-10 16:56:03] All good for negative amounts
+[2021-12-10 16:56:03] All good for not allowed transactions
+[2021-12-10 16:56:14] All good for negative amounts
+[2021-12-10 16:56:14] All good for not allowed transactions
+[2021-12-10 16:56:24] All good for negative amounts
+[2021-12-10 16:56:24] All good for not allowed transactions
+[2021-12-10 16:56:34] All good for negative amounts
+[2021-12-10 16:56:34] All good for not allowed transactions
+[2021-12-10 16:56:44] All good for negative amounts
+[2021-12-10 16:56:44] All good for not allowed transactions
+[2021-12-10 16:56:54] All good for negative amounts
+[2021-12-10 16:56:54] All good for not allowed transactions
+[2021-12-10 16:57:05] All good for negative amounts
+[2021-12-10 16:57:05] All good for not allowed transactions
+[2021-12-10 16:57:15] All good for negative amounts
+[2021-12-10 16:57:15] All good for not allowed transactions
+[2021-12-10 16:57:25] All good for negative amounts
+[2021-12-10 16:57:25] All good for not allowed transactions
+[2021-12-10 16:57:35] All good for negative amounts
+[2021-12-10 16:57:35] All good for not allowed transactions
+[2021-12-10 16:57:46] All good for negative amounts
+[2021-12-10 16:57:46] All good for not allowed transactions
+[2021-12-10 16:57:56] All good for negative amounts
+[2021-12-10 16:57:56] All good for not allowed transactions
+[2021-12-10 16:58:06] All good for negative amounts
+[2021-12-10 16:58:06] All good for not allowed transactions
+[2021-12-10 16:58:16] All good for negative amounts
+[2021-12-10 16:58:16] All good for not allowed transactions
+[2021-12-10 16:58:27] All good for negative amounts
+[2021-12-10 16:58:27] All good for not allowed transactions
+[2021-12-10 16:58:37] All good for negative amounts
+[2021-12-10 16:58:37] All good for not allowed transactions
+[2021-12-10 16:58:47] All good for negative amounts
+[2021-12-10 16:58:47] All good for not allowed transactions
+[2021-12-10 16:58:57] All good for negative amounts
+[2021-12-10 16:58:57] All good for not allowed transactions
+[2021-12-10 16:59:07] All good for negative amounts
+[2021-12-10 16:59:07] All good for not allowed transactions
+[2021-12-10 16:59:18] All good for negative amounts
+[2021-12-10 16:59:18] All good for not allowed transactions
+[2021-12-10 16:59:28] All good for negative amounts
+[2021-12-10 16:59:28] All good for not allowed transactions
+[2021-12-10 16:59:38] All good for negative amounts
+[2021-12-10 16:59:38] All good for not allowed transactions
+[2021-12-10 16:59:48] All good for negative amounts
+[2021-12-10 16:59:48] All good for not allowed transactions
+[2021-12-10 16:59:59] All good for negative amounts
+[2021-12-10 16:59:59] All good for not allowed transactions
+[2021-12-10 17:00:09] All good for negative amounts
+[2021-12-10 17:00:09] All good for not allowed transactions
+[2021-12-10 17:00:19] All good for negative amounts
+[2021-12-10 17:00:19] All good for not allowed transactions
+[2021-12-10 17:00:29] All good for negative amounts
+[2021-12-10 17:00:29] All good for not allowed transactions
+[2021-12-10 17:00:39] All good for negative amounts
+[2021-12-10 17:00:39] All good for not allowed transactions
+[2021-12-10 17:00:50] All good for negative amounts
+[2021-12-10 17:00:50] All good for not allowed transactions
+[2021-12-10 17:01:00] All good for negative amounts
+[2021-12-10 17:01:00] All good for not allowed transactions
+[2021-12-10 17:01:10] All good for negative amounts
+[2021-12-10 17:01:10] All good for not allowed transactions
+[2021-12-10 17:01:20] All good for negative amounts
+[2021-12-10 17:01:20] All good for not allowed transactions
+[2021-12-10 17:01:31] All good for negative amounts
+[2021-12-10 17:01:31] All good for not allowed transactions
+[2021-12-10 17:01:41] All good for negative amounts
+[2021-12-10 17:01:41] All good for not allowed transactions
+[2021-12-10 17:01:51] All good for negative amounts
+[2021-12-10 17:01:51] All good for not allowed transactions
+[2021-12-10 17:02:01] All good for negative amounts
+[2021-12-10 17:02:01] All good for not allowed transactions
+[2021-12-10 17:02:11] All good for negative amounts
+[2021-12-10 17:02:11] All good for not allowed transactions
+[2021-12-10 17:02:22] All good for negative amounts
+[2021-12-10 17:02:22] All good for not allowed transactions
+[2021-12-10 17:02:32] All good for negative amounts
+[2021-12-10 17:02:32] All good for not allowed transactions
+[2021-12-10 17:02:42] All good for negative amounts
+[2021-12-10 17:02:42] All good for not allowed transactions
+[2021-12-10 17:02:52] All good for negative amounts
+[2021-12-10 17:02:52] All good for not allowed transactions
+[2021-12-10 17:03:03] All good for negative amounts
+[2021-12-10 17:03:03] All good for not allowed transactions
+[2021-12-10 17:03:13] All good for negative amounts
+[2021-12-10 17:03:13] All good for not allowed transactions
+[2021-12-10 17:03:23] All good for negative amounts
+[2021-12-10 17:03:23] All good for not allowed transactions
+[2021-12-10 17:03:33] All good for negative amounts
+[2021-12-10 17:03:33] All good for not allowed transactions
+[2021-12-10 17:03:43] All good for negative amounts
+[2021-12-10 17:03:43] All good for not allowed transactions
+[2021-12-10 17:03:54] All good for negative amounts
+[2021-12-10 17:03:54] All good for not allowed transactions
+[2021-12-10 17:04:04] All good for negative amounts
+[2021-12-10 17:04:04] All good for not allowed transactions
+[2021-12-10 17:04:14] All good for negative amounts
+[2021-12-10 17:04:14] All good for not allowed transactions
+[2021-12-10 17:04:24] All good for negative amounts
+[2021-12-10 17:04:24] All good for not allowed transactions
+[2021-12-10 17:04:35] All good for negative amounts
+[2021-12-10 17:04:35] All good for not allowed transactions
+[2021-12-10 17:04:45] All good for negative amounts
+[2021-12-10 17:04:45] All good for not allowed transactions
+[2021-12-10 17:04:55] All good for negative amounts
+[2021-12-10 17:04:55] All good for not allowed transactions
+[2021-12-10 17:05:05] All good for negative amounts
+[2021-12-10 17:05:05] All good for not allowed transactions
+[2021-12-10 17:05:15] All good for negative amounts
+[2021-12-10 17:05:15] All good for not allowed transactions
+[2021-12-10 17:05:26] All good for negative amounts
+[2021-12-10 17:05:26] All good for not allowed transactions
+[2021-12-10 17:05:36] All good for negative amounts
+[2021-12-10 17:05:36] All good for not allowed transactions
+[2021-12-10 17:05:46] All good for negative amounts
+[2021-12-10 17:05:46] All good for not allowed transactions
+[2021-12-10 17:05:56] All good for negative amounts
+[2021-12-10 17:05:56] All good for not allowed transactions
+[2021-12-10 17:06:07] All good for negative amounts
+[2021-12-10 17:06:07] All good for not allowed transactions
+[2021-12-10 17:06:17] All good for negative amounts
+[2021-12-10 17:06:17] All good for not allowed transactions
+[2021-12-10 17:06:27] All good for negative amounts
+[2021-12-10 17:06:27] All good for not allowed transactions
+[2021-12-10 17:06:37] All good for negative amounts
+[2021-12-10 17:06:37] All good for not allowed transactions
+[2021-12-10 17:06:48] All good for negative amounts
+[2021-12-10 17:06:48] All good for not allowed transactions
+[2021-12-10 17:06:58] All good for negative amounts
+[2021-12-10 17:06:58] All good for not allowed transactions
+[2021-12-10 17:07:08] All good for negative amounts
+[2021-12-10 17:07:08] All good for not allowed transactions
+[2021-12-10 17:07:18] All good for negative amounts
+[2021-12-10 17:07:18] All good for not allowed transactions
+[2021-12-10 17:07:28] All good for negative amounts
+[2021-12-10 17:07:28] All good for not allowed transactions
+[2021-12-10 17:07:39] All good for negative amounts
+[2021-12-10 17:07:39] All good for not allowed transactions
+[2021-12-10 17:07:49] All good for negative amounts
+[2021-12-10 17:07:49] All good for not allowed transactions
+[2021-12-10 17:07:59] All good for negative amounts
+[2021-12-10 17:07:59] All good for not allowed transactions
+[2021-12-10 17:08:09] All good for negative amounts
+[2021-12-10 17:08:09] All good for not allowed transactions
+[2021-12-10 17:08:20] All good for negative amounts
+[2021-12-10 17:08:20] All good for not allowed transactions
+[2021-12-10 17:08:30] All good for negative amounts
+[2021-12-10 17:08:30] All good for not allowed transactions
+[2021-12-10 17:08:40] All good for negative amounts
+[2021-12-10 17:08:40] All good for not allowed transactions
+[2021-12-10 17:08:50] All good for negative amounts
+[2021-12-10 17:08:50] All good for not allowed transactions
+[2021-12-10 17:09:00] All good for negative amounts
+[2021-12-10 17:09:00] All good for not allowed transactions
+[2021-12-10 17:09:11] All good for negative amounts
+[2021-12-10 17:09:11] All good for not allowed transactions
+[2021-12-10 17:09:21] All good for negative amounts
+[2021-12-10 17:09:21] All good for not allowed transactions
+[2021-12-10 17:09:31] All good for negative amounts
+[2021-12-10 17:09:31] All good for not allowed transactions
+[2021-12-10 17:09:41] All good for negative amounts
+[2021-12-10 17:09:41] All good for not allowed transactions
+[2021-12-10 17:09:52] All good for negative amounts
+[2021-12-10 17:09:52] All good for not allowed transactions
+[2021-12-10 17:10:02] All good for negative amounts
+[2021-12-10 17:10:02] All good for not allowed transactions
+[2021-12-10 17:10:12] All good for negative amounts
+[2021-12-10 17:10:12] All good for not allowed transactions
+[2021-12-10 17:10:22] All good for negative amounts
+[2021-12-10 17:10:22] All good for not allowed transactions
+[2021-12-10 17:10:32] All good for negative amounts
+[2021-12-10 17:10:32] All good for not allowed transactions
+[2021-12-10 17:10:43] All good for negative amounts
+[2021-12-10 17:10:43] All good for not allowed transactions
+[2021-12-10 17:10:53] All good for negative amounts
+[2021-12-10 17:10:53] All good for not allowed transactions
+[2021-12-10 17:11:03] All good for negative amounts
+[2021-12-10 17:11:03] All good for not allowed transactions
+[2021-12-10 17:11:13] All good for negative amounts
+[2021-12-10 17:11:13] All good for not allowed transactions
+[2021-12-10 17:11:24] All good for negative amounts
+[2021-12-10 17:11:24] All good for not allowed transactions
+[2021-12-10 17:11:34] All good for negative amounts
+[2021-12-10 17:11:34] All good for not allowed transactions
+[2021-12-10 17:11:44] All good for negative amounts
+[2021-12-10 17:11:44] All good for not allowed transactions
+[2021-12-10 17:11:54] All good for negative amounts
+[2021-12-10 17:11:54] All good for not allowed transactions
+[2021-12-10 17:12:05] All good for negative amounts
+[2021-12-10 17:12:05] All good for not allowed transactions
+[2021-12-10 17:12:15] All good for negative amounts
+[2021-12-10 17:12:15] All good for not allowed transactions
+[2021-12-10 17:12:25] All good for negative amounts
+[2021-12-10 17:12:25] All good for not allowed transactions
+[2021-12-10 17:12:35] All good for negative amounts
+[2021-12-10 17:12:35] All good for not allowed transactions
+[2021-12-10 17:12:45] All good for negative amounts
+[2021-12-10 17:12:45] All good for not allowed transactions
+[2021-12-10 17:12:56] All good for negative amounts
+[2021-12-10 17:12:56] All good for not allowed transactions
+[2021-12-10 17:13:06] All good for negative amounts
+[2021-12-10 17:13:06] All good for not allowed transactions
+[2021-12-10 17:13:16] All good for negative amounts
+[2021-12-10 17:13:16] All good for not allowed transactions
+[2021-12-10 17:13:26] All good for negative amounts
+[2021-12-10 17:13:26] All good for not allowed transactions
+[2021-12-10 17:13:37] All good for negative amounts
+[2021-12-10 17:13:37] All good for not allowed transactions
+[2021-12-10 17:13:47] All good for negative amounts
+[2021-12-10 17:13:47] All good for not allowed transactions
+[2021-12-10 17:13:57] All good for negative amounts
+[2021-12-10 17:13:57] All good for not allowed transactions
+[2021-12-10 17:14:07] All good for negative amounts
+[2021-12-10 17:14:07] All good for not allowed transactions
+[2021-12-10 17:14:17] All good for negative amounts
+[2021-12-10 17:14:17] All good for not allowed transactions
+[2021-12-10 17:14:28] All good for negative amounts
+[2021-12-10 17:14:28] All good for not allowed transactions
+[2021-12-10 17:14:38] All good for negative amounts
+[2021-12-10 17:14:38] All good for not allowed transactions
+[2021-12-10 17:14:48] All good for negative amounts
+[2021-12-10 17:14:48] All good for not allowed transactions
+[2021-12-10 17:14:58] All good for negative amounts
+[2021-12-10 17:14:58] All good for not allowed transactions
+[2021-12-10 17:15:09] All good for negative amounts
+[2021-12-10 17:15:09] All good for not allowed transactions
+[2021-12-10 17:15:19] All good for negative amounts
+[2021-12-10 17:15:19] All good for not allowed transactions
+[2021-12-10 17:15:29] All good for negative amounts
+[2021-12-10 17:15:29] All good for not allowed transactions
+[2021-12-10 17:15:39] All good for negative amounts
+[2021-12-10 17:15:39] All good for not allowed transactions
+[2021-12-10 17:15:50] All good for negative amounts
+[2021-12-10 17:15:50] All good for not allowed transactions
+[2021-12-10 17:16:00] All good for negative amounts
+[2021-12-10 17:16:00] All good for not allowed transactions
+[2021-12-10 17:16:10] All good for negative amounts
+[2021-12-10 17:16:10] All good for not allowed transactions
+[2021-12-10 17:16:20] All good for negative amounts
+[2021-12-10 17:16:20] All good for not allowed transactions
+[2021-12-10 17:16:30] All good for negative amounts
+[2021-12-10 17:16:30] All good for not allowed transactions
+[2021-12-10 17:16:41] All good for negative amounts
+[2021-12-10 17:16:41] All good for not allowed transactions
+[2021-12-10 17:16:51] All good for negative amounts
+[2021-12-10 17:16:51] All good for not allowed transactions
+[2021-12-10 17:17:01] All good for negative amounts
+[2021-12-10 17:17:01] All good for not allowed transactions
+[2021-12-10 17:17:11] All good for negative amounts
+[2021-12-10 17:17:11] All good for not allowed transactions
+[2021-12-10 17:17:22] All good for negative amounts
+[2021-12-10 17:17:22] All good for not allowed transactions
+[2021-12-10 17:17:32] All good for negative amounts
+[2021-12-10 17:17:32] All good for not allowed transactions
+[2021-12-10 17:17:42] All good for negative amounts
+[2021-12-10 17:17:42] All good for not allowed transactions
+[2021-12-10 17:17:52] All good for negative amounts
+[2021-12-10 17:17:52] All good for not allowed transactions
+[2021-12-10 17:18:02] All good for negative amounts
+[2021-12-10 17:18:02] All good for not allowed transactions
+[2021-12-10 17:18:06] All good for negative amounts
+[2021-12-10 17:18:06] All good for not allowed transactions
+[2021-12-10 17:18:13] All good for negative amounts
+[2021-12-10 17:18:13] All good for not allowed transactions
+[2021-12-10 17:18:16] All good for negative amounts
+[2021-12-10 17:18:16] All good for not allowed transactions
+[2021-12-10 17:18:23] All good for negative amounts
+[2021-12-10 17:18:23] All good for not allowed transactions
+[2021-12-10 17:18:27] All good for negative amounts
+[2021-12-10 17:18:27] All good for not allowed transactions
+[2021-12-10 17:18:33] All good for negative amounts
+[2021-12-10 17:18:33] All good for not allowed transactions
+[2021-12-10 17:18:37] All good for negative amounts
+[2021-12-10 17:18:37] All good for not allowed transactions
+[2021-12-10 17:18:43] All good for negative amounts
+[2021-12-10 17:18:43] All good for not allowed transactions
+[2021-12-10 17:18:47] All good for negative amounts
+[2021-12-10 17:18:47] All good for not allowed transactions
+[2021-12-10 17:18:54] All good for negative amounts
+[2021-12-10 17:18:54] All good for not allowed transactions
+[2021-12-10 17:18:57] All good for negative amounts
+[2021-12-10 17:18:57] All good for not allowed transactions
+[2021-12-10 17:19:04] All good for negative amounts
+[2021-12-10 17:19:04] All good for not allowed transactions
+[2021-12-10 17:19:08] All good for negative amounts
+[2021-12-10 17:19:08] All good for not allowed transactions
+[2021-12-10 17:19:14] All good for negative amounts
+[2021-12-10 17:19:14] All good for not allowed transactions
+[2021-12-10 17:19:18] All good for negative amounts
+[2021-12-10 17:19:18] All good for not allowed transactions
+[2021-12-10 17:19:24] All good for negative amounts
+[2021-12-10 17:19:24] All good for not allowed transactions
+[2021-12-10 17:19:28] All good for negative amounts
+[2021-12-10 17:19:28] All good for not allowed transactions
+[2021-12-10 17:19:34] All good for negative amounts
+[2021-12-10 17:19:34] All good for not allowed transactions
+[2021-12-10 17:19:38] All good for negative amounts
+[2021-12-10 17:19:38] All good for not allowed transactions
+[2021-12-10 17:19:45] All good for negative amounts
+[2021-12-10 17:19:45] All good for not allowed transactions
+[2021-12-10 17:19:48] All good for negative amounts
+[2021-12-10 17:19:48] All good for not allowed transactions
+[2021-12-10 17:19:59] All good for negative amounts
+[2021-12-10 17:19:59] All good for not allowed transactions
+[2021-12-10 17:20:09] All good for negative amounts
+[2021-12-10 17:20:09] All good for not allowed transactions
+[2021-12-10 17:20:19] All good for negative amounts
+[2021-12-10 17:20:19] All good for not allowed transactions
+[2021-12-10 17:20:29] All good for negative amounts
+[2021-12-10 17:20:29] All good for not allowed transactions
+[2021-12-10 17:20:40] All good for negative amounts
+[2021-12-10 17:20:40] All good for not allowed transactions
+[2021-12-10 17:20:50] All good for negative amounts
+[2021-12-10 17:20:50] All good for not allowed transactions
+[2021-12-10 17:21:00] All good for negative amounts
+[2021-12-10 17:21:00] All good for not allowed transactions
+[2021-12-10 17:21:10] All good for negative amounts
+[2021-12-10 17:21:10] All good for not allowed transactions
+[2021-12-10 17:21:20] All good for negative amounts
+[2021-12-10 17:21:20] All good for not allowed transactions
+[2021-12-10 17:21:31] All good for negative amounts
+[2021-12-10 17:21:31] All good for not allowed transactions
+[2021-12-10 17:21:41] All good for negative amounts
+[2021-12-10 17:21:41] All good for not allowed transactions
+[2021-12-10 17:21:51] All good for negative amounts
+[2021-12-10 17:21:51] All good for not allowed transactions
+[2021-12-10 17:22:01] All good for negative amounts
+[2021-12-10 17:22:01] All good for not allowed transactions
+[2021-12-10 17:22:12] All good for negative amounts
+[2021-12-10 17:22:12] All good for not allowed transactions
+[2021-12-10 17:22:22] All good for negative amounts
+[2021-12-10 17:22:22] All good for not allowed transactions
+[2021-12-10 17:22:32] All good for negative amounts
+[2021-12-10 17:22:32] All good for not allowed transactions
+[2021-12-10 17:22:42] All good for negative amounts
+[2021-12-10 17:22:42] All good for not allowed transactions
+[2021-12-10 17:22:52] All good for negative amounts
+[2021-12-10 17:22:52] All good for not allowed transactions
+[2021-12-10 17:23:03] All good for negative amounts
+[2021-12-10 17:23:03] All good for not allowed transactions
+[2021-12-10 17:23:13] All good for negative amounts
+[2021-12-10 17:23:13] All good for not allowed transactions
+[2021-12-10 17:23:23] All good for negative amounts
+[2021-12-10 17:23:23] All good for not allowed transactions
+[2021-12-10 17:23:33] All good for negative amounts
+[2021-12-10 17:23:33] All good for not allowed transactions
+[2021-12-10 17:23:44] All good for negative amounts
+[2021-12-10 17:23:44] All good for not allowed transactions
+[2021-12-10 17:23:54] All good for negative amounts
+[2021-12-10 17:23:54] All good for not allowed transactions
+[2021-12-10 17:24:04] All good for negative amounts
+[2021-12-10 17:24:04] All good for not allowed transactions
+[2021-12-10 17:24:14] All good for negative amounts
+[2021-12-10 17:24:14] All good for not allowed transactions
+[2021-12-10 17:24:24] All good for negative amounts
+[2021-12-10 17:24:24] All good for not allowed transactions
+[2021-12-10 17:24:35] All good for negative amounts
+[2021-12-10 17:24:35] All good for not allowed transactions
+[2021-12-10 17:24:45] All good for negative amounts
+[2021-12-10 17:24:45] All good for not allowed transactions
+[2021-12-10 17:24:55] All good for negative amounts
+[2021-12-10 17:24:55] All good for not allowed transactions
+[2021-12-10 17:25:05] All good for negative amounts
+[2021-12-10 17:25:05] All good for not allowed transactions
+[2021-12-10 17:25:16] All good for negative amounts
+[2021-12-10 17:25:16] All good for not allowed transactions
+[2021-12-10 17:25:26] All good for negative amounts
+[2021-12-10 17:25:26] All good for not allowed transactions
+[2021-12-10 17:25:36] All good for negative amounts
+[2021-12-10 17:25:36] All good for not allowed transactions
+[2021-12-10 17:25:46] All good for negative amounts
+[2021-12-10 17:25:46] All good for not allowed transactions
+[2021-12-10 17:25:57] All good for negative amounts
+[2021-12-10 17:25:57] All good for not allowed transactions
+[2021-12-10 17:26:07] All good for negative amounts
+[2021-12-10 17:26:07] All good for not allowed transactions
+[2021-12-10 17:26:17] All good for negative amounts
+[2021-12-10 17:26:17] All good for not allowed transactions
+[2021-12-10 17:26:27] All good for negative amounts
+[2021-12-10 17:26:27] All good for not allowed transactions
+[2021-12-10 17:26:37] All good for negative amounts
+[2021-12-10 17:26:37] All good for not allowed transactions
+[2021-12-10 17:26:48] All good for negative amounts
+[2021-12-10 17:26:48] All good for not allowed transactions
+[2021-12-10 17:26:58] All good for negative amounts
+[2021-12-10 17:26:58] All good for not allowed transactions
+[2021-12-10 17:27:08] All good for negative amounts
+[2021-12-10 17:27:08] All good for not allowed transactions
+[2021-12-10 17:27:18] All good for negative amounts
+[2021-12-10 17:27:18] All good for not allowed transactions
+[2021-12-10 17:27:29] All good for negative amounts
+[2021-12-10 17:27:29] All good for not allowed transactions
+[2021-12-10 17:27:39] All good for negative amounts
+[2021-12-10 17:27:39] All good for not allowed transactions
+[2021-12-10 17:27:49] All good for negative amounts
+[2021-12-10 17:27:49] All good for not allowed transactions
+[2021-12-10 17:27:59] All good for negative amounts
+[2021-12-10 17:27:59] All good for not allowed transactions
+[2021-12-10 17:28:09] All good for negative amounts
+[2021-12-10 17:28:09] All good for not allowed transactions
+[2021-12-10 17:28:20] All good for negative amounts
+[2021-12-10 17:28:20] All good for not allowed transactions
+[2021-12-10 17:28:30] All good for negative amounts
+[2021-12-10 17:28:30] All good for not allowed transactions
+[2021-12-10 17:28:40] All good for negative amounts
+[2021-12-10 17:28:40] All good for not allowed transactions
+[2021-12-10 17:28:50] All good for negative amounts
+[2021-12-10 17:28:50] All good for not allowed transactions
+[2021-12-10 17:29:01] All good for negative amounts
+[2021-12-10 17:29:01] All good for not allowed transactions
+[2021-12-10 17:29:11] All good for negative amounts
+[2021-12-10 17:29:11] All good for not allowed transactions
+[2021-12-10 17:29:21] All good for negative amounts
+[2021-12-10 17:29:21] All good for not allowed transactions
+[2021-12-10 17:29:31] All good for negative amounts
+[2021-12-10 17:29:31] All good for not allowed transactions
+[2021-12-10 17:29:41] All good for negative amounts
+[2021-12-10 17:29:41] All good for not allowed transactions
+[2021-12-10 17:29:52] All good for negative amounts
+[2021-12-10 17:29:52] All good for not allowed transactions
+[2021-12-10 17:30:02] All good for negative amounts
+[2021-12-10 17:30:02] All good for not allowed transactions
+[2021-12-10 17:30:12] All good for negative amounts
+[2021-12-10 17:30:12] All good for not allowed transactions
+[2021-12-10 17:30:22] All good for negative amounts
+[2021-12-10 17:30:22] All good for not allowed transactions
+[2021-12-10 17:30:33] All good for negative amounts
+[2021-12-10 17:30:33] All good for not allowed transactions
+[2021-12-10 17:30:43] All good for negative amounts
+[2021-12-10 17:30:43] All good for not allowed transactions
+[2021-12-10 17:30:53] All good for negative amounts
+[2021-12-10 17:30:53] All good for not allowed transactions
+[2021-12-10 17:31:03] All good for negative amounts
+[2021-12-10 17:31:03] All good for not allowed transactions
+[2021-12-10 17:31:13] All good for negative amounts
+[2021-12-10 17:31:13] All good for not allowed transactions
+[2021-12-10 17:31:24] All good for negative amounts
+[2021-12-10 17:31:24] All good for not allowed transactions
+[2021-12-10 17:31:34] All good for negative amounts
+[2021-12-10 17:31:34] All good for not allowed transactions
+[2021-12-10 17:31:44] All good for negative amounts
+[2021-12-10 17:31:44] All good for not allowed transactions
+[2021-12-10 17:31:54] All good for negative amounts
+[2021-12-10 17:31:54] All good for not allowed transactions
+[2021-12-10 17:32:05] All good for negative amounts
+[2021-12-10 17:32:05] All good for not allowed transactions
+[2021-12-10 17:32:15] All good for negative amounts
+[2021-12-10 17:32:15] All good for not allowed transactions
+[2021-12-10 17:32:25] All good for negative amounts
+[2021-12-10 17:32:25] All good for not allowed transactions
+[2021-12-10 17:32:35] All good for negative amounts
+[2021-12-10 17:32:35] All good for not allowed transactions
+[2021-12-10 17:32:45] All good for negative amounts
+[2021-12-10 17:32:45] All good for not allowed transactions
+[2021-12-10 17:32:56] All good for negative amounts
+[2021-12-10 17:32:56] All good for not allowed transactions
+[2021-12-10 17:33:06] All good for negative amounts
+[2021-12-10 17:33:06] All good for not allowed transactions
+[2021-12-10 17:33:16] All good for negative amounts
+[2021-12-10 17:33:16] All good for not allowed transactions
+[2021-12-10 17:33:26] All good for negative amounts
+[2021-12-10 17:33:26] All good for not allowed transactions
+[2021-12-10 17:33:37] All good for negative amounts
+[2021-12-10 17:33:37] All good for not allowed transactions
+[2021-12-10 17:33:47] All good for negative amounts
+[2021-12-10 17:33:47] All good for not allowed transactions

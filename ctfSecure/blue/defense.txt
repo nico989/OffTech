@@ -1,9 +1,37 @@
 # Installation
-pick most secure mysql version
-pick most secure apache version
+install lamp
+pick most secure mysql version 5.7.36
+pick most secure PHP version 7.2.24
+pick most secure apache version (mod qos + mod evasive + mod security) 2.4.29
+
+# mysql
+change and delete default credential
+change db and tables name
+default storage table --> innoDB (better than MyISAM)
+SQL accounts:
+root password --> GrY7i13vc3D6XrGqUfPQ
+offtech password --> UnRsqUlTE3lufZR09gw2
+SHA512 passwords: 
+jelena pass --> RhRgmoEoOeTT2hRCZU6V
+john pass --> Vc8FRoHa5hPAusboWbQQ
+kate pass --> wi352VyjwGWc4lUI6aUN
 
 # PHP
-fix code (prepared statement, path traversal)
+fix code (prepared statement, XSS)
 
 # Gateway
 iptables to limit and drop strange request
+snort?
+
+# Logs file
+Server:
+/tmp/systemd-private-{id}-apache2.service-{id}/tmp/request.log
+/tmp/logHTTPRequests.txt
+/tmp/logConsistency.txt
+/var/log/apache2/access.log
+/var/log/apache2/error.log
+/var/log/apache2/modsec_audit.log
+Gateway:
+/tmp/logHTTPRequests.txt
+/var/log/kern.log
+/var/log/snort/snort.{id}

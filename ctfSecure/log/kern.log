@@ -1,0 +1,5 @@
+Dec 10 06:37:56 gateway kernel: [ 6622.229825] nf_conntrack version 0.5.0 (16384 buckets, 65536 max)
+Dec 10 06:47:04 gateway kernel: [ 7170.245538] device eth1 entered promiscuous mode
+Dec 10 08:18:54 gateway kernel: [12679.985256] device eth1 left promiscuous mode
+Dec 10 08:19:01 gateway kernel: [12686.946224] device eth1 entered promiscuous mode
+Dec 10 08:33:44 gateway kernel: [13569.563921] device eth1 left promiscuous mode

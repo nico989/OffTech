@@ -1,0 +1,22 @@
+--- evasive.conf	2021-12-05 09:04:02.442277000 -0800
++++ evasive_patch.conf	2021-12-05 09:05:42.598667000 -0800
+@@ -1,12 +1,12 @@
+ <IfModule mod_evasive20.c>
+-    #DOSHashTableSize    3097
+-    #DOSPageCount        2
+-    #DOSSiteCount        50
+-    #DOSPageInterval     1
+-    #DOSSiteInterval     1
+-    #DOSBlockingPeriod   10
++    DOSHashTableSize    3097
++    DOSPageCount        2
++    DOSSiteCount        20
++    DOSPageInterval     1
++    DOSSiteInterval     1
++    DOSBlockingPeriod   20
+ 
+     #DOSEmailNotify      you@yourdomain.com
+     #DOSSystemCommand    "su - someuser -c '/sbin/... %s ...'"
+-    #DOSLogDir           "/var/log/mod_evasive"
++    DOSLogDir           "/var/log/mod_evasive"
+ </IfModule>

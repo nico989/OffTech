@@ -1,0 +1,20 @@
+--- qos.conf	2021-12-05 08:36:23.335259000 -0800
++++ qos_patched.conf	2021-12-05 08:41:03.207298000 -0800
+@@ -5,9 +5,15 @@
+   # limits the connections for this virtual host:
+   #QS_SrvMaxConn                                     100
+ 
++  # maximum number of active TCP connections is limited to 400
++  MaxClients                    400
++
+   # allows keep-alive support till the server reaches 600 connections:
+-  #QS_SrvMaxConnClose                                600
++  QS_SrvMaxConnClose 200
++
++  # minimum request/response speed
++  QS_SrvMinDataRate 150 1200
+ 
+   # allows max 50 connections from a single ip address:
+-  #QS_SrvMaxConnPerIP                                 50
++  QS_SrvMaxConnPerIP                                 50
+ </IfModule>
